@@ -1,0 +1,27 @@
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 4rem 2rem;
+    align-items: center;
+  
+    img {
+      flex: 1 1 300px;
+      border-radius: 8px;
+    }
+  
+    .text {
+      flex: 1 1 300px;
+  
+      h2 {
+        font-family: 'Playfair Display', serif;
+        color: #d8a77a;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+      }
+  
+      p {
+        font-size: 1.1rem;
+      }
+    }
+  }

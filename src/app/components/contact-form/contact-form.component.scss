@@ -1,0 +1,39 @@
+.contact-form {
+    padding: 4rem 2rem;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  
+    h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      color: #d8a77a;
+    }
+  
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+  
+      input, textarea {
+        padding: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-family: inherit;
+      }
+  
+      button {
+        background-color: #d8a77a;
+        color: white;
+        border: none;
+        padding: 0.75rem;
+        border-radius: 5px;
+        cursor: pointer;
+  
+        &:hover {
+          background-color: #c79461;
+        }
+      }
+    }
+  }

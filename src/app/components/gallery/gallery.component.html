@@ -1,0 +1,21 @@
+<section class="carousel">
+  <h2>Portfolio</h2>
+
+  <div class="carousel-wrapper">
+    <button class="nav prev" (click)="prev()">‹</button>
+
+    <div class="carousel-track-container">
+      <div class="carousel-track" [style.transform]="getTransform()">
+        <div
+          class="carousel-slide"
+          *ngFor="let img of images; let i = index"
+          [class.active]="i === currentIndex"
+        >
+          <img [src]="img" alt="Foto" />
+        </div>
+      </div>
+    </div>
+
+    <button class="nav next" (click)="next()">›</button>
+  </div>
+</section>

@@ -1,0 +1,9 @@
+<section class="contact-form">
+    <h2>Contattami</h2>
+    <form (ngSubmit)="submitForm()">
+      <input type="text" placeholder="Nome" [(ngModel)]="formData.name" name="name" required />
+      <input type="email" placeholder="Email" [(ngModel)]="formData.email" name="email" required />
+      <textarea rows="5" placeholder="Messaggio" [(ngModel)]="formData.message" name="message" required></textarea>
+      <button type="submit">Invia</button>
+    </form>
+  </section>
