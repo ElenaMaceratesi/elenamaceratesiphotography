@@ -21,3 +21,34 @@
   display: flex;
   flex-direction: column;
 }
+.insta-banner {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: #fefcf9;
+}
+
+.insta-title {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+  color: #bfae9b;
+  margin-bottom: 2rem;
+}
+
+.insta-button {
+  background-color: #c3a68b;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  font-family: 'Playfair Display', serif;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  i {
+    font-size: 1.2rem;
+  }
+}
