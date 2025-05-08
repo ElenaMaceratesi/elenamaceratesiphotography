@@ -11,4 +11,14 @@ import { Router, RouterLink } from '@angular/router';
   standalone: true
 })
 export class NavbarComponent {
+
+  menuOpen = false;
+
+  toggleMenu() {
+    this.menuOpen = !this.menuOpen;
+  }
+
+  closeMenu() {
+    this.menuOpen = false;
+  }
 }

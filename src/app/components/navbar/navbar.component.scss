@@ -1,36 +1,110 @@
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1.5rem 2rem;
-    background-color: #fffaf6;
-    position: sticky;
-    top: 0;
-    z-index: 10;
-  
-    .logo {
-      font-family: 'Playfair Display', serif;
-      font-size: 1.8rem;
-      font-weight: bold;
-      color: #d8a77a;
-    }
-  
-    ul {
-      list-style: none;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #f2eadc;
+  border-bottom: 1px solid #eee;
+
+  .nav-left {
+    .nav-links {
       display: flex;
-      gap: 1.5rem;
-  
-      li {
-        a {
-          font-weight: 500;
-          font-size: 1.5rem;
-          color: #3e3e3e;
-          cursor: pointer;
-  
+      list-style: none;
+      gap: 2rem;
+      margin: 0;
+      padding: 0;
+
+      li a {
+        text-decoration: none;
+        font-family: 'Questrial', sans-serif;
+        font-size: 19px;
+        font-weight: normal;
+        color: #634040;
+        transition: color 0.3s;
+
+        &:hover {
+          color: #d8a77a;
+        }
+      }
+    }
+  }
+
+  .logo {
+    font-family: 'Adventures Unlimited', cursive;
+    font-size: 1.5rem;
+    color: #3a2e2e;
+    text-decoration: none;
+  }
+
+  .burger {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+
+    span {
+      width: 24px;
+      height: 2px;
+      background: #d8a77a;
+      border-radius: 1px;
+      transition: transform 0.3s, opacity 0.3s;
+    }
+  }
+
+  /* MOBILE */
+  @media (max-width: 768px) {
+    .burger {
+      display: flex;
+    }
+
+    .nav-left {
+      position: absolute;
+      top: calc(100% + 0.5rem);  // leggermente sotto la barra
+      left: 1rem;                // vicino al burger
+      background: #fff;
+      border: 1px solid #eee;
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      max-height: 0;
+      transition: max-height 0.3s ease, opacity 0.3s ease;
+      opacity: 0;
+
+      &.open {
+        max-height: 500px;  // abbondante per contenere i link
+        opacity: 1;
+      }
+
+      .nav-links {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+
+        li a {
+          display: block;
+          padding: 0.25rem 0.5rem;
+          border-radius: 0.25rem;
+
           &:hover {
+            background: #f4ece2;
             color: #d8a77a;
           }
         }
       }
     }
+
+    /* Mantieni logo a destra */
+    .logo {
+      position: absolute;
+      right: 1.5rem;
+      top: 50%;
+      transform: translateY(-50%);
+    }
   }
+}

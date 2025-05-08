@@ -90,14 +90,18 @@
 
 .text {
   display: flex;
-  flex-direction: row;
-  height: 8rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem 0; // Margine sopra e sotto ridotto rispetto a height fissa
 
   .gallery-text {
-    align-items: center;
     font-family: 'Adventures Unlimited', cursive;
     font-weight: normal;
     font-size: 58px;
+    text-align: center;
+    color: #6a4a3c;
+    margin: 0;
   }
 }
+
 
