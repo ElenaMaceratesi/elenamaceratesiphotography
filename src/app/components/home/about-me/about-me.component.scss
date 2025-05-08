@@ -1,0 +1,63 @@
+.presentazione {
+  background-color: #f2eadc;
+  padding: 2rem;
+  text-align: center;
+
+  .benvenuti {
+    font-family: 'Questrial', sans-serif;
+    font-weight: normal;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    color: #634040;
+  }
+
+  .intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+
+    img {
+      width: 260px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    .testo {
+      max-width: 500px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+
+      h3 {
+        font-family: 'Adventures Unlimited', cursive;
+        font-weight: normal;
+        font-size: 58px;
+        color: #6a4a3c;
+        margin-bottom: 1rem;
+        align-self: center;
+      }
+
+      p {
+        font-family: 'Questrial', sans-serif;
+        font-size: 19px;
+        line-height: 1.6;
+        color: #634040;
+      }
+
+      .link {
+        align-self: flex-end;
+        font-family: 'Adventures Unlimited', cursive;
+        font-size: 44px;
+        color: #6a4a3c;
+        transition: color 0.3s;
+
+        &:hover {
+          color: #a8674d;
+        }
+      }
+    }
+  }
+}

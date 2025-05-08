@@ -87,3 +87,17 @@
     font-size: 16px;
   }
 }
+
+.text {
+  display: flex;
+  flex-direction: row;
+  height: 8rem;
+
+  .gallery-text {
+    align-items: center;
+    font-family: 'Adventures Unlimited', cursive;
+    font-weight: normal;
+    font-size: 58px;
+  }
+}
+

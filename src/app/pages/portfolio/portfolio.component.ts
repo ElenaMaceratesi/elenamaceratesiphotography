@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { GalleryComponent } from "../../components/gallery/gallery.component";
+import { GalleryComponent } from "../../components/home/gallery/gallery.component";
 
 @Component({
   selector: 'app-portflio',
