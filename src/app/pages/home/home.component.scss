@@ -22,33 +22,57 @@
   flex-direction: column;
 }
 .insta-banner {
-  text-align: center;
-  padding: 4rem 1rem;
+  /* Piccolo margine sopra e sotto */
+  margin: 1rem 0;
+  /* Padding contenuto più compatto */
+  padding: 0.5rem 1rem;
   background-color: #fefcf9;
+  text-align: center;
 }
 
 .insta-title {
-  font-family: 'Great Vibes', cursive;
-  font-size: 3rem;
-  color: #bfae9b;
-  margin-bottom: 2rem;
+  position: relative;
+  display: block;           // blocco vero che va a caporiga
+  width: max-content;       // larghezza pari al contenuto
+  margin: 0 auto 1rem;      // centrato orizzontalmente, 1rem sotto
+  padding: 0;
+
+  font-family: 'Adventures Unlimited', cursive;
+  font-weight: normal;
+  font-size: 3.4rem;
+  color: #6a4a3c;
+  line-height: 1.1;
+  text-align: center;
+
+  &::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #634040;
+    margin-bottom: 0.5rem;
+  }
 }
 
+
 .insta-button {
-  background-color: #c3a68b;
-  border: none;
-  padding: 1rem 2rem;
-  border-radius: 50px;
-  color: white;
-  font-weight: bold;
-  font-size: 1rem;
-  cursor: pointer;
-  font-family: 'Playfair Display', serif;
-  display: inline-flex;
+  display: inline-flex;     // dimensione al contenuto
   align-items: center;
   gap: 0.5rem;
+  margin: 0 auto;           // centrato orizzontalmente
+  padding: 0.6rem 1.5rem;   // come prima
+  background-color: #c3a68b;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
 
   i {
     font-size: 1.2rem;
   }
 }
+
+

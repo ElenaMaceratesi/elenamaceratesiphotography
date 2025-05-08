@@ -2,6 +2,7 @@
     <!-- Lega open qui, non sulla ul -->
     <div class="nav-left" [class.open]="menuOpen">
         <ul class="nav-links">
+            <li><a routerLink="/" (click)="closeMenu()">Home</a></li>
             <li><a routerLink="/chi-sono" (click)="closeMenu()">Chi Sono</a></li>
             <li><a routerLink="/servizi" (click)="closeMenu()">Servizi</a></li>
             <li><a routerLink="/servizi" (click)="closeMenu()">I Prodotti</a></li>
