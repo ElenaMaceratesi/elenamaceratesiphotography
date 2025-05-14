@@ -1,1 +1,11 @@
-<p>review works!</p>
+<section class="recensioni-page">
+    <h2 class="titolo-sezione">Le vostre parole</h2>
+    <ng-container *ngFor="let r of recensioni">
+        <app-single-review
+                [foto]="r.foto"
+                [nome]="r.nome"
+                [testo]="r.recensione"
+                [backgroundColor]="r.colore">
+        </app-single-review>
+    </ng-container>
+</section>

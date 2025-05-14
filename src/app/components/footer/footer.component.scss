@@ -18,3 +18,17 @@
         color: #9b8b7c;
     }
 }
+
+@media (max-width: 768px) {
+    .footer {
+        width: auto;
+    }
+}
+
+@media (max-width: 320px) {
+    .footer {
+        .footer-line {
+            font-size: 0.8rem;
+        }
+    }
+}
