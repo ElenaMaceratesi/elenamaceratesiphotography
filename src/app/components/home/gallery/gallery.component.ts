@@ -14,6 +14,7 @@ export class GalleryComponent implements AfterViewInit{
     '/assets/gallery4.png',
     '/assets/gallery5.png',
     '/assets/gallery6.png',
+    '/assets/pancia.jpg'
   ];
 
   constructor(private cdRef: ChangeDetectorRef) {}
