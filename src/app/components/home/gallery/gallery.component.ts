@@ -17,6 +17,8 @@ export class GalleryComponent implements AfterViewInit{
     '/assets/pancia.jpg'
   ];
 
+  //test
+
   constructor(private cdRef: ChangeDetectorRef) {}
 
   // Creiamo l'array esteso per il loop infinito: [ultima, ...immagini, prima]
