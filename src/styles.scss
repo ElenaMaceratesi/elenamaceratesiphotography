@@ -25,3 +25,7 @@ img {
   font-weight: normal;
   font-style: normal;
 }
+
+:root {
+  --navbar-height: 45px; /* regola in base al tuo padding + line-height */
+}

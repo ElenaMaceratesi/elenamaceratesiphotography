@@ -1,4 +1,4 @@
-<div class="recensione-container" [ngStyle]="{ 'background-color': backgroundColor }">
+<div class="recensione-container" [ngClass]="{'invertita': reversed}" [ngStyle]="{ 'background-color': backgroundColor }">
     <img [src]="foto" alt="Foto recensione" class="recensione-img" />
     <div class="recensione-content">
         <h3 class="recensione-nome">{{ nome }}</h3>

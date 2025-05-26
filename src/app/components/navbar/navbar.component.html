@@ -1,4 +1,4 @@
-<nav class="navbar">
+<nav class="navbar" [class.transparent]="transparentBackground">
     <!-- Lega open qui, non sulla ul -->
     <div class="nav-left" [class.open]="menuOpen">
         <ul class="nav-links">
@@ -11,7 +11,7 @@
         </ul>
     </div>
 
-    <img style="width: 15%; cursor: pointer;" src="assets/logo.png" alt="logo" routerLink="/" />
+    <img class="logo" src="assets/logo.png" alt="logo" routerLink="/" />
     <button class="burger" (click)="toggleMenu()" aria-label="Apri menu">
         <span></span>
         <span></span>

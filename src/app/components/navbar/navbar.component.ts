@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-navbar',
@@ -10,9 +11,22 @@ import { Router, RouterLink } from '@angular/router';
   styleUrl: './navbar.component.scss',
   standalone: true
 })
-export class NavbarComponent {
+export class NavbarComponent implements OnInit, OnDestroy {
 
+  transparentBackground = false;
   menuOpen = false;
+  subscription: Subscription = new Subscription;
+
+  constructor(private router: Router) {
+  }
+
+  ngOnInit(): void {
+    this.subscription = this.router.events.subscribe(event => {this.transparentBackground = this.router.url !== '/'})
+  }
+
+  ngOnDestroy(): void {
+    this.subscription.unsubscribe();
+  }
 
   toggleMenu() {
     this.menuOpen = !this.menuOpen;

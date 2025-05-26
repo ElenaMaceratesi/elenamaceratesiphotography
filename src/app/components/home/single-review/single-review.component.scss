@@ -22,6 +22,10 @@
   width: 100%;
   box-sizing: border-box;
   animation: fadeInUp 0.8s ease-in-out both;
+
+  &.invertita {
+    flex-direction: row-reverse;
+  }
 }
 
 .recensione-img {

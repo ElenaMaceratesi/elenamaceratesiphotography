@@ -1,10 +1,11 @@
-import { Component, Input } from '@angular/core';
-import { NgStyle } from '@angular/common';
+import { booleanAttribute, Component, Input } from '@angular/core';
+import { NgClass, NgStyle } from '@angular/common';
 
 @Component({
   selector: 'app-single-review',
   imports: [
-    NgStyle
+    NgStyle,
+    NgClass
   ],
   templateUrl: './single-review.component.html',
   standalone: true,
@@ -15,4 +16,5 @@ export class SingleReviewComponent {
   @Input() nome!: string;
   @Input() testo!: string;
   @Input() backgroundColor: string = '#f2e7d5'; // colore neutro di default
+  @Input({transform: booleanAttribute}) reversed = false;
 }

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { SingleReviewComponent } from '../single-review/single-review.component';
 import { NgForOf } from '@angular/common';
+import { Review } from '../../../interface/home/review-interface';
 
 @Component({
     selector: 'app-review',
@@ -10,7 +11,7 @@ import { NgForOf } from '@angular/common';
     styleUrl: './review.component.scss'
 })
 export class ReviewComponent {
-    recensioni = [
+    recensioni: Review[] = [
         {
             foto: 'assets/home/recensioni/elena.jpg',
             nome: 'Alessandra',
@@ -24,19 +25,21 @@ export class ReviewComponent {
             foto: 'assets/home/recensioni/anima.jpg',
             nome: 'Andrea',
             recensione: `La passione e la pazienza di Elena sono le qualità che più la contraddistinguono. Con la nostra bambina è stata un angelo. Una dolcezza e una delicatezza infinita.... Consiglio tantissimo Elena come fotografa per qualsiasi book ma ancora di più per il "new born" che mi sono resa conto essere davvero tanto impegnativo e lei è stata fantastica.... Grazie ancora Elena`,
-            colore: '#fffaf6'
+            colore: '#fffaf6',
+            reverse_direction: true
         },
-      {
-        foto: 'assets/home/recensioni/elena1.jpg',
-        nome: 'Roberta',
-        recensione: `Elena non è solo una super professionista, ma è una persona dolcissima, sa come metterti a tuo agio ma sopratutto come coccolare e gestire il tuo piccolo neonato, mi sono da subito sentita sicura di affidarle il nostro piccolo  la sceglieremo sempre per i nostri servizi e consigliamo a tutti di fare altrettanto  i suoi scatti sono i nostri momenti di gioia `,
-        colore: '#f2eadc'
-      },
-      {
-        foto: 'assets/home/recensioni/elena2.jpg',
-        nome: 'Federico',
-        recensione: `Elena non è solo una super professionista, ma è una persona dolcissima, sa come metterti a tuo agio ma sopratutto come coccolare e gestire il tuo piccolo neonato, mi sono da subito sentita sicura di affidarle il nostro piccolo  la sceglieremo sempre per i nostri servizi e consigliamo a tutti di fare altrettanto  i suoi scatti sono i nostri momenti di gioia `,
-        colore: '#fffaf6'
-      }
+        {
+            foto: 'assets/home/recensioni/elena1.jpg',
+            nome: 'Roberta',
+            recensione: `Elena non è solo una super professionista, ma è una persona dolcissima, sa come metterti a tuo agio ma sopratutto come coccolare e gestire il tuo piccolo neonato, mi sono da subito sentita sicura di affidarle il nostro piccolo  la sceglieremo sempre per i nostri servizi e consigliamo a tutti di fare altrettanto  i suoi scatti sono i nostri momenti di gioia `,
+            colore: '#f2eadc'
+        },
+        {
+            foto: 'assets/home/recensioni/elena2.jpg',
+            nome: 'Federico',
+            recensione: `Elena non è solo una super professionista, ma è una persona dolcissima, sa come metterti a tuo agio ma sopratutto come coccolare e gestire il tuo piccolo neonato, mi sono da subito sentita sicura di affidarle il nostro piccolo  la sceglieremo sempre per i nostri servizi e consigliamo a tutti di fare altrettanto  i suoi scatti sono i nostri momenti di gioia `,
+            colore: '#fffaf6',
+            reverse_direction: true
+        }
     ];
 }
