@@ -10,11 +10,11 @@ import { CommonModule } from '@angular/common';
 })
 export class GalleryComponent implements AfterViewInit{
   images = [
-    '/assets/elena.jpg',
-    '/assets/gallery4.png',
-    '/assets/gallery5.png',
-    '/assets/gallery6.png',
-    '/assets/pancia.jpg'
+    '/assets/home/carosello/elena.jpg',
+    '/assets/home/carosello/gallery4.png',
+    '/assets/home/carosello/gallery5.png',
+    '/assets/home/carosello/gallery6.png',
+    '/assets/home/carosello/pancia.jpg'
   ];
 
   //test
