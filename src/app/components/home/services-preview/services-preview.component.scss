@@ -1,0 +1,72 @@
+.titolo-sezione {
+  text-align: center;
+  font-family: 'Adventures Unlimited', cursive;
+  font-weight: normal;
+  font-size: 55px;
+  color: #4c2a1c;
+}
+
+.preview {
+  display: flex;
+  padding-top: 20px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px; /* Aggiunto gap per spaziatura uniforme */
+
+  .preview-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Adventures Unlimited', cursive;
+    font-weight: normal;
+    font-size: 40px;
+    flex: 0 0 25%; /* Larghezza fissa al 22% */
+    max-width: 30%; /* Massima larghezza del 22% */
+
+    img {
+      width: 100%;
+      height: auto;
+      object-fit: cover; /* Per mantenere le proporzioni dell'immagine */
+    }
+  }
+}
+
+.link {
+  align-self: flex-end;
+  font-family: 'Adventures Unlimited', cursive;
+  font-size: 44px;
+  color: #6a4a3c;
+  transition: color 0.3s;
+  text-align: center;
+  padding-top: 10px;
+
+  &:hover {
+    color: #a8674d;
+  }
+}
+/* Media queries per responsive design */
+@media (max-width: 768px) {
+  .preview {
+    flex-direction: column;
+    align-items: center;
+
+    .preview-element {
+      flex: 0 0 80%;
+      max-width: 80%;
+      margin-bottom: 20px;
+      font-size: 32px; /* Font più piccolo su mobile */
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .preview {
+    .preview-element {
+      flex: 0 0 90%;
+      max-width: 90%;
+      font-size: 28px; /* Font ancora più piccolo su schermi molto piccoli */
+    }
+  }
+}
