@@ -1,0 +1,65 @@
+<!-- photo-gallery.component.html -->
+<div class="gallery-container">
+    <!-- Testo introduttivo -->
+    <div class="intro-text">
+        <p style="margin-bottom: 0px">
+            Se ti sei ritrovato in queste parole e nelle mie immagini, sarò felice
+            di raccontare la tua storia.
+        </p>
+        <p style="margin-top: 0px">
+            Insieme possiamo trasformare attimi preziosi in ricordi che
+            dureranno per sempre.
+        </p>
+    </div>
+
+    <!-- Galleria foto -->
+    <div class="gallery-wrapper">
+        <button
+                class="nav-button nav-button-left"
+                (click)="scrollLeft()"
+                [class.visible]="showNavButtons && canScrollLeft"
+                aria-label="Scorri a sinistra"
+        >
+            &#8249;
+        </button>
+
+        <div class="gallery-scroll" #galleryContainer (scroll)="onScroll()">
+            <div class="gallery-grid">
+                <div
+                        *ngFor="let photo of photos; let i = index"
+                        class="photo-item"
+                        [class.active]="i === activeIndex"
+                >
+                    <img
+                            [src]="photo.src"
+                            [alt]="photo.alt"
+                            (load)="onImageLoad()"
+                            loading="lazy"
+                    >
+                </div>
+            </div>
+        </div>
+
+        <button
+                class="nav-button nav-button-right"
+                (click)="scrollRight()"
+                [class.visible]="showNavButtons && canScrollRight"
+                aria-label="Scorri a destra"
+        >
+            &#8250;
+        </button>
+    </div>
+
+    <!-- Indicatori di posizione per mobile -->
+    <div class="indicators" *ngIf="showIndicators">
+    <span
+            *ngFor="let photo of photos; let i = index"
+            class="indicator"
+            [class.active]="i === activeIndex"
+            (click)="scrollToIndex(i)"
+            [attr.aria-label]="'Vai alla foto ' + (i + 1)"
+            role="button"
+            tabindex="0"
+    ></span>
+    </div>
+</div>

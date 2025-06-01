@@ -163,7 +163,6 @@
 
   .carousel-item.side {
     flex: 0 0 250px;
-
     img {
       height: 350px;
     }
@@ -207,6 +206,7 @@
 
   .carousel-item.side {
     flex: 0 0 200px;
+    display: none;
     transform: scale(0.75);
 
     img {
