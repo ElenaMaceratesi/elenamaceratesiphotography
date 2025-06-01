@@ -107,7 +107,7 @@
 
     .nav-left {
       position: absolute;
-      top: calc(100% + 0.5rem);  // leggermente sotto la barra
+      top: calc(100% + -0.5rem);  // leggermente sotto la barra
       left: 1rem;                // vicino al burger
       background: #fff;
       border: 1px solid #eee;
