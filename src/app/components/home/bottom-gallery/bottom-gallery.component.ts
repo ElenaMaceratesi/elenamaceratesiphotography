@@ -12,11 +12,11 @@ export class BottomGalleryComponent {
   @ViewChild('galleryContainer') galleryContainer!: ElementRef;
 
   photos = [
-    { src: '/assets/home/carosello/elena.jpg', alt: 'Neonato che dorme' },
-    { src: '/assets/home/carosello/pancia.jpg', alt: 'Famiglia con neonato' },
-    { src: '/assets/home/carosello/gallery4.png', alt: 'Coppia con bambino' },
-    { src: '/assets/home/carosello/gallery5.png', alt: 'Bambina sorridente' },
-    { src: '/assets/home/carosello/gallery6.png', alt: 'Momento familiare' }
+    { src: '/assets/home/striscia/foto1.jpg', alt: 'Neonato che dorme' },
+    { src: '/assets/home/striscia/foto2.jpg', alt: 'Famiglia con neonato' },
+    { src: '/assets/home/striscia/foto3.jpg', alt: 'Coppia con bambino' },
+    { src: '/assets/home/striscia/foto4.jpg', alt: 'Bambina sorridente' },
+    { src: '/assets/home/striscia/foto5.jpg', alt: 'Momento familiare' }
   ];
 
   activeIndex = 0;
