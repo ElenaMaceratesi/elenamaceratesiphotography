@@ -12,19 +12,20 @@
     width: 100%;
     height: auto;
   }
+
   .photo-header {
     width: 100%;
-    height: 600px;               // altezza fissa che scegli tu
+    height: 600px;
     background-image: url('/assets/home/chisono/elenapanoramica.jpg');
-    background-size: cover;      // mantiene il crop proporzionato
-    background-position: center 25%; // sempre centrata
+    background-size: cover;
+    background-position: center 25%;
     overflow: hidden;
   }
 
   .chi-sono-header {
     font-family: 'Adventures Unlimited', cursive;
     font-weight: normal;
-    font-size: clamp(24px, 8vw, 82px); /* si adatta automaticamente */
+    font-size: clamp(24px, 8vw, 82px);
     position: absolute;
     z-index: 10;
     color: white;
@@ -33,35 +34,194 @@
     transform: translate(-50%, -50%);
   }
 
-
   .chi-sono-body {
     display: flex;
     flex-direction: row;
   }
+
   .text {
-    flex: 1 1 70%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     font-family: 'Questrial', sans-serif;
     font-weight: normal;
     text-align: center;
     justify-content: center;
+
     p {
-      font-size: 18px;
+      font-size: 25px;
       font-weight: lighter;
+      color: #634040;
     }
+  }
+
+  .text-content {
+    width: 80%;
+    align-self: center;
   }
 
   .photo-body {
     flex: 1 1 30%;
+    padding: 0px 30px 30px 0px;
+    align-content: center;
+  }
+
+  .single-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .single-image img {
+    width: 100%;
+    max-width: 400px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  }
+
+  .content-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-row:last-child {
+    margin-bottom: 0;
+  }
+
+  .content-row:first-child {
+    margin-top: 20px;
+  }
+
+  .text-section {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 400px;
+  }
+
+  .text-section.double-paragraph {
+    max-width: 450px;
+  }
+
+  .image-section {
+    flex: 0 0 auto;
+    width: auto;
+  }
+
+  .image-section img {
+    width: 100%;
+    max-width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+  }
+
+  .bottom-gallery {
+    display: flex;
+    flex-direction: row;
+    padding: 0 40px;
+    gap: 10px;
+    max-height: 400px;
+    margin-bottom: 40px;
+
+    .single-image-row {
+      display: flex;
+      flex-direction: column;
+      width: 20%
+    }
+
+    .double-image-row {
+      display: flex;
+      flex-direction: column;
+      width: 20%;
+      gap: 10px
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .photo-header {
+      height: 800px;
+    }
   }
 
   @media (max-width: 768px) {
     flex-direction: column;
 
     .photo-header {
-      aspect-ratio: 16 / 9; /* più orizzontale su mobile */
+      aspect-ratio: 16 / 9;
       height: 400px;
+    }
+
+    // Aggiungi queste regole per il secondo chi-sono-body
+    .chi-sono-body {
+      flex-direction: column;
+    }
+
+    .content-row {
+      flex-direction: column;
+      gap: 20px;
+      margin-bottom: 30px;
+      align-items: center;
+      text-align: center;
+    }
+
+    .text {
+      width: 100%;
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .text-content {
+      width: 95%;
+    }
+
+    .image-section {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .image-section img {
+      max-width: 300px;
+      height: 250px;
+    }
+
+    .bottom-gallery {
+      flex-direction: column;
+      padding: 0 20px;
+      max-height: none;
+      gap: 20px;
+
+      .single-image-row, .double-image-row {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+      }
+
+      .double-image-row {
+        img {
+          width: 48%;
+          max-width: 300px;
+          height: 150px;
+        }
+      }
+
+      .single-image-row {
+        img {
+          width: 100%;
+          max-width: 300px;
+          height: 200px;
+        }
+      }
     }
   }
 }
