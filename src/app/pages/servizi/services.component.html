@@ -1,17 +1,25 @@
 <section class="services">
+    <div class="header-container">
+        <div class="photo-header"></div>
+        <div class="title-header">Tutti i miei servizi</div>
+    </div>
     <h2>Servizi fotografici</h2>
     <div class="grid">
-      <div class="card">
-        <h3>Maternità</h3>
-        <p>Sessioni emozionali all’aperto o in studio per celebrare la dolce attesa.</p>
-      </div>
-      <div class="card">
-        <h3>Newborn</h3>
-        <p>Servizi delicati nei primi giorni di vita, con luce naturale e pose sicure.</p>
-      </div>
-      <div class="card">
-        <h3>Famiglia</h3>
-        <p>Scatti spontanei e veri per raccontare la magia dell’unione.</p>
-      </div>
+        <div class="card" *ngFor="let servizio of elencoServizi">
+            <div class="card-image">
+                <img [src]="servizio.foto" [alt]="servizio.servizio" />
+            </div>
+            <div class="card-content">
+                <h3>{{ servizio.servizio }}</h3>
+                <p *ngIf="servizio.descrizione">{{ servizio.descrizione }}</p>
+            </div>
+        </div>
     </div>
-  </section>
+
+    <div class="contattami">
+        <a class="insta-button" href="/contatti" rel="noopener noreferrer">
+            Contattami !
+        </a>
+    </div>
+
+</section>

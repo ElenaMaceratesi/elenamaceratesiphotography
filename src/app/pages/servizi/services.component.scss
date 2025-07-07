@@ -1,9 +1,39 @@
 .services {
-  padding: 4rem 2rem;
-  text-align: center;
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: center;
+  margin-top: calc(-3 * var(--navbar-height));
+  padding-top: var(--navbar-height);
+
+  .header-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .photo-header {
+    width: 100%;
+    height: 600px;
+    background-image: url('/assets/home/chisono/elenapanoramica.jpg');
+    background-size: cover;
+    background-position: center 25%;
+    overflow: hidden;
+  }
+
+  .title-header {
+    font-family: 'Adventures Unlimited', cursive;
+    font-weight: normal;
+    font-size: clamp(24px, 8vw, 82px);
+    position: absolute;
+    z-index: 10;
+    color: white;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
   h2 {
     font-family: 'Playfair Display', serif;
     color: #d8a77a;
@@ -12,22 +42,113 @@
   }
 
   .grid {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     justify-content: center;
+    max-width: 1200px;
+    padding: 0 1rem;
 
     .card {
       background: #fffaf6;
       border: 1px solid #ddd;
-      padding: 2rem;
-      border-radius: 8px;
-      max-width: 300px;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
 
-      h3 {
-        color: #c79461;
-        margin-bottom: 1rem;
+      &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      }
+
+      .card-image {
+        width: 100%;
+        height: 320px;
+        overflow: hidden;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          transition: transform 0.3s ease;
+        }
+
+        &:hover img {
+          transform: scale(1.05);
+        }
+      }
+
+      .card-content {
+        text-align: center;
+
+        h3 {
+          font-family: 'Adventures Unlimited', cursive;
+          font-weight: normal;
+          color: #6a4a3c;
+          margin-bottom: 0.5rem;
+          margin-top: 10px;
+          font-size: 40px;
+        }
+
+        p {
+          font-family: 'Questrial', sans-serif;
+          font-size: 15px;
+          padding: 5px 10px 10px;
+          color: #634040;
+          line-height: 1.4;
+          margin: 0;
+        }
       }
     }
   }
+
+  .contattami {
+    position: relative;
+    display: block;           // blocco vero che va a caporiga
+    width: 25%;       // larghezza pari al contenuto
+    margin: 0 auto 1rem;      // centrato orizzontalmente, 1rem sotto
+    padding: 10px 0 0 0;
+
+    font-family: 'Adventures Unlimited', cursive;
+    font-weight: normal;
+    font-size: 3.4rem;
+    color: #6a4a3c;
+    text-align: center;
+
+    &::before {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 1px;
+      background-color: #634040;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  @media (min-width: 1440px) {
+    .photo-header {
+      height: 800px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+
+    .photo-header {
+      aspect-ratio: 16 / 9;
+      height: 400px;
+    }
+
+    .grid {
+      grid-template-columns: 1fr;
+      padding: 0 0.5rem;
+    }
+
+    .contattami {
+      font-size: 2rem;
+      width: 50%;
+    }
+  }
+
+
 }
