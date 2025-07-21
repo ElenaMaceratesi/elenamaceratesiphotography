@@ -10,7 +10,7 @@ import { CommonModule } from '@angular/common';
 })
 export class GalleryComponent {
   images = [
-    '/assets/home/carosello/elena.jpg',
+    '/assets/home/chisono/elenapanoramica.jpg',
     '/assets/home/carosello/gallery4.png',
     '/assets/home/carosello/gallery5.png',
     '/assets/home/carosello/gallery6.png',

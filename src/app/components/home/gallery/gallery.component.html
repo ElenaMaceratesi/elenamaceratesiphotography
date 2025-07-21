@@ -1,13 +1,9 @@
 <!-- carousel.component.html -->
 <section class="carousel-section">
     <div class="carousel-container">
-        <div class="carousel-track" #carouselTrack (transitionend)="onTransitionEnd()">
-            <div
-                    class="carousel-item"
-                    *ngFor="let image of displayImages; let i = index"
-                    [class.center]="i === 1"
-                    [class.side]="i !== 1">
-                <img [src]="image" alt="Immagine del carosello">
+        <div #carouselTrack (transitionend)="onTransitionEnd()">
+            <div class="carousel-item">
+                <img [src]="images[currentIndex]" alt="Immagine del carosello">
             </div>
         </div>
         <button class="carousel-button prev" (click)="prev()">‹</button>
