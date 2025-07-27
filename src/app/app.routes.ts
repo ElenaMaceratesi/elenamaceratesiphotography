@@ -4,6 +4,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { ServicesComponent } from './pages/servizi/services.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
+import { PrimiMesiComponent } from './pages/primi-mesi/primi-mesi.component';
 
 export const routes: Routes = [
     { path: '', component: HomeComponent },
@@ -11,5 +12,6 @@ export const routes: Routes = [
     { path: 'servizi', component: ServicesComponent },
     { path: 'portfolio', component: PortfolioComponent },
     { path: 'contatti', component: ContactComponent },
+    { path: 'primi-mesi', component: PrimiMesiComponent },
     { path: '**', redirectTo: '' }
   ];
