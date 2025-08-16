@@ -1,4 +1,4 @@
-import { Component, ElementRef, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, Input, input, OnInit, ViewChild } from '@angular/core';
 import { CommonModule, NgForOf } from '@angular/common';
 
 @Component({
@@ -8,8 +8,13 @@ import { CommonModule, NgForOf } from '@angular/common';
   templateUrl: './bottom-gallery.component.html',
   styleUrl: './bottom-gallery.component.scss'
 })
-export class BottomGalleryComponent {
+export class BottomGalleryComponent implements OnInit, AfterViewInit{
   @ViewChild('galleryContainer') galleryContainer!: ElementRef;
+  @Input()
+  set photos_input(_photo: any[]) {
+    this.photos = _photo;
+  }
+  @Input() hide_text = true
 
   photos = [
     { src: '/assets/home/striscia/foto1.jpg', alt: 'Neonato che dorme' },

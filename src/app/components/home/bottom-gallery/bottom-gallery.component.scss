@@ -34,7 +34,7 @@ $desktop-min: 1024px;
 
 // Componente principale
 .gallery-container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0rem 1rem;
   font-family: 'Georgia', serif;
@@ -81,16 +81,6 @@ $desktop-min: 1024px;
   overflow: hidden;
   box-shadow: 0 4px 15px $shadow-light;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-
-  &:first-child {
-    border-radius: 4px 0px 0px 4px;
-    // Ordine: top-left, top-right, bottom-right, bottom-left
-  }
-
-  &:last-child {
-    border-radius: 0 4px 4px 0;
-    // Ordine: top-left, top-right, bottom-right, bottom-left
-  }
 
   img {
     width: 100%;

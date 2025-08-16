@@ -12,5 +12,11 @@ import { RouterLink } from '@angular/router';
   styleUrl: './primi-mesi.component.scss'
 })
 export class PrimiMesiComponent {
-
+    photos = [
+        { src: '/assets/home/servizi/primimesi/striscia1.jpg', alt: 'Neonato che dorme' },
+        { src: '/assets/home/servizi/primimesi/striscia2.jpg', alt: 'Famiglia con neonato' },
+        { src: '/assets/home/servizi/primimesi/striscia3.jpg', alt: 'Coppia con bambino' },
+        { src: '/assets/home/servizi/primimesi/striscia4.jpg', alt: 'Bambina sorridente' },
+        { src: '/assets/home/servizi/primimesi/striscia5.jpg', alt: 'Momento familiare' }
+    ];
 }
