@@ -26,7 +26,8 @@ export class ServiziHelperService {
     {
       foto: '/assets/home/servizi/bebe.jpg',
       servizio: 'Bebè',
-      descrizione: 'Da 6 agli 11 mesi'
+      descrizione: 'Da 6 agli 11 mesi',
+      path: '/bebe'
     },
     {
       foto: '/assets/home/servizi/smashcake2.jpg',

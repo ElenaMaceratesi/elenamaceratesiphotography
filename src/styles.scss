@@ -19,6 +19,230 @@ img {
   max-width: 100%;
   display: block;
 }
+
+.servizi {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 2rem;
+  align-items: stretch;
+  margin-top: calc(-3 * var(--navbar-height));
+  padding-top: var(--navbar-height);
+
+  > *:not(app-bottom-gallery) {
+    align-self: center;
+  }
+
+  // AGGIUNGI questa regola specifica per app-bottom-gallery
+  app-bottom-gallery {
+    align-self: stretch;
+    width: 100%;
+  }
+  .header-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+
+  .photo-header {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center 25%;
+    overflow: hidden;
+  }
+
+  .servizi-header {
+    font-family: 'Adventures Unlimited', cursive;
+    font-weight: normal;
+    font-size: clamp(24px, 8vw, 82px);
+    position: absolute;
+    z-index: 10;
+    color: white;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .sub-tilte {
+    font-family: 'Adventures Unlimited', cursive;
+    font-weight: normal;
+    align-self: center;
+    font-size: clamp(24px, 8vw, 62px);
+    color: #634040;
+  }
+
+  .servizi-body {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    max-width: 1200px;
+    width: 100%;
+  }
+
+  .text {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Questrial', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    justify-content: center;
+
+    p {
+      font-size: 18px;
+      font-weight: lighter;
+      color: #634040;
+    }
+  }
+
+  .text-content {
+    width: 80%;
+    align-self: center;
+  }
+
+  .photo-body {
+    flex: 1 1 30%;
+    padding: 0px 30px 30px 0px;
+    align-content: center;
+  }
+
+  .single-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .single-image img {
+    width: 100%;
+    max-width: 400px;
+    height: 500px;
+    object-fit: cover;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  }
+
+  .content-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content-row:last-child {
+    margin-bottom: 0px;
+  }
+
+  .text-section {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 400px;
+  }
+
+  .text-section.double-paragraph {
+    max-width: 450px;
+  }
+
+  .image-section {
+    flex: 0 0 auto;
+    width: auto;
+    align-self: center;
+  }
+
+  .image-section img {
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  }
+
+  .bottom-section {
+    display: flex;
+    flex-direction: column;
+    .sub-tilte {
+      font-size: clamp(24px, 8vw, 42px)
+    }
+  }
+
+  .line {
+    position: relative;
+    display: inline-block;
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      bottom: -10px;
+      width: 75%;
+      height: 1px;
+      background-color: #634040;
+    }
+  }
+
+  /* MEDIA QUERIES SEPARATE - IMPORTANTE! */
+  @media (min-width: 1440px) {
+    .photo-header {
+      height: 800px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    .photo-header {
+      aspect-ratio: 16 / 9;
+      height: 400px
+    }
+
+    .servizi-body {
+      flex-direction: column;
+    }
+
+    .content-row {
+      flex-direction: column;
+      gap: 20px;
+      margin-bottom: 30px;
+      align-items: center;
+      text-align: center;
+    }
+
+    .text {
+      width: 100% !important; /* Forza l'applicazione */
+
+      p {
+        font-size: 18px;
+      }
+    }
+
+    .text-content {
+      width: 95%;
+    }
+
+    .image-section {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .image-section img {
+      max-width: 300px;
+    }
+
+    .single-image img {
+      max-width: 300px;
+      height: 400px;
+    }
+  }
+  .bottom-section {
+    .sub-tilte {
+      font-size: clamp(24px, 7vw, 42px)
+    }
+  }
+}
+
+
+
 @font-face {
   font-family: 'Adventures Unlimited';
   src: url('assets/fonts/adventures-unlimited-script-regular.otf') format('opentype');
