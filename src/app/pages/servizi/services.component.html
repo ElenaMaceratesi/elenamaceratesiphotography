@@ -5,13 +5,15 @@
     </div>
     <div class="grid">
         <div class="card" *ngFor="let servizio of elencoServizi">
-            <div class="card-image">
-                <img [src]="servizio.foto" [alt]="servizio.servizio" />
-            </div>
-            <div class="card-content">
-                <h3>{{ servizio.servizio }}</h3>
-                <p *ngIf="servizio.descrizione">{{ servizio.descrizione }}</p>
-            </div>
+            <a routerLink="{{servizio.path}}">
+                <div class="card-image">
+                    <img [src]="servizio.foto" [alt]="servizio.servizio"/>
+                </div>
+                <div class="card-content">
+                    <h3>{{ servizio.servizio }}</h3>
+                    <p *ngIf="servizio.descrizione">{{ servizio.descrizione }}</p>
+                </div>
+            </a>
         </div>
     </div>
 

@@ -20,7 +20,8 @@ export class ServiziHelperService {
     {
       foto: '/assets/home/servizi/smashcake.jpg',
       servizio: 'Primi mesi',
-      descrizione: 'Da 1 a 5 mesi'
+      descrizione: 'Da 1 a 5 mesi',
+      path: '/primi-mesi'
     },
     {
       foto: '/assets/home/servizi/maternita.jpg',

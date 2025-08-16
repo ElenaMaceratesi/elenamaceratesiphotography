@@ -87,7 +87,7 @@
     height: 500px;
     object-fit: cover;
     border-radius: 5px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
   }
 
   .content-row {
@@ -127,12 +127,15 @@
     height: 300px;
     object-fit: cover;
     border-radius: 5px;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
   }
 
   .bottom-section {
     display: flex;
     flex-direction: column;
+    .sub-tilte {
+      font-size: clamp(24px, 8vw, 42px)
+    }
   }
 
   .line {
@@ -144,14 +147,14 @@
       position: absolute;
       left: 50%;
       transform: translateX(-50%);
-      bottom: -10px; /* Spazio tra testo e linea */
+      bottom: -10px;
       width: 75%;
       height: 1px;
       background-color: #634040;
     }
   }
 
-
+  /* MEDIA QUERIES SEPARATE - IMPORTANTE! */
   @media (min-width: 1440px) {
     .photo-header {
       height: 800px;
@@ -160,13 +163,11 @@
 
   @media (max-width: 768px) {
     flex-direction: column;
-
     .photo-header {
       aspect-ratio: 16 / 9;
-      height: 400px;
+      height: 400px
     }
 
-    // Aggiungi queste regole per il secondo primi-mesi-body
     .primi-mesi-body {
       flex-direction: column;
     }
@@ -180,7 +181,7 @@
     }
 
     .text {
-      width: 100%;
+      width: 100% !important; /* Forza l'applicazione */
 
       p {
         font-size: 18px;
@@ -200,6 +201,16 @@
     .image-section img {
       max-width: 300px;
       height: 250px;
+    }
+
+    .single-image img {
+      max-width: 300px;
+      height: 400px;
+    }
+  }
+  .bottom-section {
+    .sub-tilte {
+      font-size: clamp(24px, 7vw, 42px)
     }
   }
 }
