@@ -10,7 +10,8 @@ export class ServiziHelperService {
     {
       foto: '/assets/servizi/elenco/maternita.jpg',
       servizio: 'Maternità',
-      descrizione: 'Tra le 28esima e la 34esima settimana di gravidanza'
+      descrizione: 'Tra le 28esima e la 34esima settimana di gravidanza',
+      path: '/maternita'
     },
     {
       foto: '/assets/servizi/elenco/newborn.jpg',

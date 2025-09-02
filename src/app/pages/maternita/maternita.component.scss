@@ -1,0 +1,14 @@
+.photo-header {
+  background-image: url('/assets/home/servizi/maternità/copertina.jpg') ;
+}
+
+.maternita-body {
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  .maternita-body {
+    flex-direction: column;
+  }
+}

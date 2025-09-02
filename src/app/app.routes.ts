@@ -6,6 +6,7 @@ import { ContactComponent } from './pages/contact/contact.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { PrimiMesiComponent } from './pages/primi-mesi/primi-mesi.component';
 import { BebeComponent } from './pages/bebe/bebe.component';
+import { MaternitaComponent } from './pages/maternita/maternita.component';
 
 export const routes: Routes = [
     { path: '', component: HomeComponent },
@@ -15,5 +16,6 @@ export const routes: Routes = [
     { path: 'contatti', component: ContactComponent },
     { path: 'primi-mesi', component: PrimiMesiComponent },
     { path: 'bebe', component: BebeComponent },
+    { path: 'maternita', component: MaternitaComponent },
     { path: '**', redirectTo: '' }
   ];
