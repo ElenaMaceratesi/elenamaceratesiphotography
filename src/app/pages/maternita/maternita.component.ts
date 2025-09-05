@@ -12,11 +12,18 @@ import { RouterLink } from '@angular/router';
   styleUrl: './maternita.component.scss'
 })
 export class MaternitaComponent {
-    photos = [
+    bottom_photos = [
         { src: '/assets/home/servizi/maternità/striscia1.jpg', alt: 'Famiglia con cane' },
         { src: '/assets/home/servizi/maternità/striscia2.jpg', alt: 'Donna incinta' },
         { src: '/assets/home/servizi/maternità/striscia3.jpg', alt: 'Donna in cinta con altra figlia' },
         { src: '/assets/home/servizi/maternità/striscia4.jpg', alt: 'Famiglia' },
         { src: '/assets/home/servizi/maternità/striscia5.jpg', alt: 'Donna in cinta con altra figlia' }
     ];
+
+    middle_photos = [
+        { src: '/assets/home/servizi/maternità/foto2.jpg', alt: 'Coppia in esterna' },
+        { src: '/assets/home/servizi/maternità/foto3.jpg', alt: 'Coppia con cane' },
+        { src: '/assets/home/servizi/maternità/foto4.jpg', alt: 'Bacio alla pancia' },
+        { src: '/assets/home/servizi/maternità/foto5.jpg', alt: 'Mamma in esterna' },
+    ]
 }

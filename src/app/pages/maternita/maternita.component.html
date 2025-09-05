@@ -9,17 +9,22 @@
                 <div>
                     <span class="sub-tilte">Perchè regalarsi un servizio maternità ? </span>
                 </div>
-                <p>La gravidanza è uno dei momenti più speciali e intensi nella vita di una donna, un tempo fatto di attesa, sogni e amore che cresce giorno dopo giorno.
-                    Un servizio fotografico maternità è un modo per celebrare questo momento unico e raccontare l’emozione che solo l’attesa sa regalare.
-                    Queste immagini saranno per sempre il racconto di dove tutto è iniziato, un dono prezioso per voi e per il vostro bambino,
+                <p>La gravidanza è uno dei momenti più speciali e intensi nella vita di una donna, un tempo fatto di
+                    attesa, sogni e amore che cresce giorno dopo giorno.
+                    Un servizio fotografico maternità è un modo per celebrare questo momento unico e raccontare
+                    l’emozione che solo l’attesa sa regalare.
+                    Queste immagini saranno per sempre il racconto di dove tutto è iniziato, un dono prezioso per voi e
+                    per il vostro bambino,
                     che un giorno potrà guardarle e riscoprire tutto l’amore che lo ha accolto ancor prima di nascere.
                 </p>
                 <div>
                     <span class="sub-tilte">Quando è il momento migliore per farlo? </span>
                 </div>
                 <p>
-                    Il momento ideale per realizzare un servizio fotografico maternità è tra la 26ª e la 34ª settimana di gravidanza: la pancia inizia a mostrarsi,
-                    ma la futura mamma riesce ancora a sentirsi a suo agio, senza il gonfiore e la stanchezza delle ultime settimane di attesa.                </p>
+                    Il momento ideale per realizzare un servizio fotografico maternità è tra la 26ª e la 34ª settimana
+                    di gravidanza: la pancia inizia a mostrarsi,
+                    ma la futura mamma riesce ancora a sentirsi a suo agio, senza il gonfiore e la stanchezza delle
+                    ultime settimane di attesa. </p>
             </div>
         </div>
         <div class="image-section">
@@ -35,7 +40,8 @@
                             <span class="sub-tilte">Dove si svolge ? </span>
                         </div>
                         <p>
-                            Potrai scegliere di vivere questa esperienza nel mio studio, in un ambiente intimo e accogliente, oppure all’aperto, avvolta dalla luce calda e magica del tramonto.
+                            Potrai scegliere di vivere questa esperienza nel mio studio, in un ambiente intimo e
+                            accogliente, oppure all’aperto, avvolta dalla luce calda e magica del tramonto.
                         </p>
                     </div>
                 </div>
@@ -47,13 +53,21 @@
                             <span class="sub-tilte">Chi può partecipare ? </span>
                         </div>
                         <p>
-                            Il servizio è pensato non solo per la futura mamma, ma anche per il papà, i fratellini maggiori e per i vostri amici a quattro zampe, perché ogni membro della famiglia merita di essere parte di questo dolce ricordo.
+                            Il servizio è pensato non solo per la futura mamma, ma anche per il papà, i fratellini
+                            maggiori e per i vostri amici a quattro zampe, perché ogni membro della famiglia merita di
+                            essere parte di questo dolce ricordo.
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="maternita-body"></div>
+        <div class="maternita-body">
+            @for (photo of middle_photos; track photo.src) {
+                <div class="image-section" style="flex: 4">
+                    <img [src]="photo.src" alt="">
+                </div>
+            }
+        </div>
     </div>
     <div class="servizi-body" style="width: 100%">
 
@@ -66,17 +80,22 @@
                             <span class="sub-tilte">Cosa Portare ? </span>
                         </div>
                         <p>
-                            Per la mamma metto a disposizione una selezione di abiti sartoriali, scelti con cura per esaltarne la bellezza e farla sentire a proprio agio, elegante e bellissima.
-                            Non dovrai preoccuparti di nulla: ti basterà indossare un intimo color carne. Anche le bambine, di qualsiasi età, potranno indossare gli abiti disponibili in studio.
-                            Per i papà e i maschietti, consiglio un look semplice nei toni neutri, come pantaloni beige o un jeans chiaro abbinato a una camicia di lino,
+                            Per la mamma metto a disposizione una selezione di abiti sartoriali, scelti con cura per
+                            esaltarne la bellezza e farla sentire a proprio agio, elegante e bellissima.
+                            Non dovrai preoccuparti di nulla: ti basterà indossare un intimo color carne. Anche le
+                            bambine, di qualsiasi età, potranno indossare gli abiti disponibili in studio.
+                            Per i papà e i maschietti, consiglio un look semplice nei toni neutri, come pantaloni beige
+                            o un jeans chiaro abbinato a una camicia di lino,
                             una camicia bianca o una t-shirt bianca senza scritte.
                         </p>
                         <div>
                             <span class="sub-tilte">Quanto Costa ? </span>
                         </div>
                         <p>
-                            Il servizio maternità parte da 220€ e include tutto il necessario per vivere un’esperienza speciale e senza pensieri.
-                            Per ricevere tutti i dettagli e trovare insieme la proposta più adatta a te, contattami senza impegno. Sarò felice di aiutarti!
+                            Il servizio maternità parte da 220€ e include tutto il necessario per vivere un’esperienza
+                            speciale e senza pensieri.
+                            Per ricevere tutti i dettagli e trovare insieme la proposta più adatta a te, contattami
+                            senza impegno. Sarò felice di aiutarti!
                         </p>
                     </div>
                 </div>
@@ -92,5 +111,5 @@
         <span class="sub-tilte line">Guarda le gallery dei servizi dei bebè</span>
         <span class="sub-tilte" style="margin-top: 15px"><a routerLink="/contatti">Contattmi subito</a></span>
     </div>
-    <app-bottom-gallery [photos_input]="photos"></app-bottom-gallery>
+    <app-bottom-gallery [photos_input]="bottom_photos"></app-bottom-gallery>
 </section>
