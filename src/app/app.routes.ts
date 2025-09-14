@@ -9,6 +9,8 @@ import { BebeComponent } from './pages/bebe/bebe.component';
 import { MaternitaComponent } from './pages/maternita/maternita.component';
 import { SmashCakeComponent } from './pages/smash-cake/smash-cake.component';
 import { FamigliaComponent } from './pages/famiglia/famiglia.component';
+import { ServiziInEsternaComponent } from './pages/servizi-in-esterna/servizi-in-esterna.component';
+import { MiniSessioniComponent } from './pages/mini-sessioni/mini-sessioni.component';
 
 export const routes: Routes = [
     { path: '', component: HomeComponent },
@@ -21,5 +23,7 @@ export const routes: Routes = [
     { path: 'maternita', component: MaternitaComponent },
     { path: 'smash-cake', component: SmashCakeComponent },
     { path: 'famiglia', component: FamigliaComponent },
+    { path: 'in-esterna', component: ServiziInEsternaComponent },
+    { path: 'mini-sessioni', component: MiniSessioniComponent },
     { path: '**', redirectTo: '' }
   ];
