@@ -7,6 +7,8 @@ import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { PrimiMesiComponent } from './pages/primi-mesi/primi-mesi.component';
 import { BebeComponent } from './pages/bebe/bebe.component';
 import { MaternitaComponent } from './pages/maternita/maternita.component';
+import { SmashCakeComponent } from './pages/smash-cake/smash-cake.component';
+import { FamigliaComponent } from './pages/famiglia/famiglia.component';
 
 export const routes: Routes = [
     { path: '', component: HomeComponent },
@@ -17,5 +19,7 @@ export const routes: Routes = [
     { path: 'primi-mesi', component: PrimiMesiComponent },
     { path: 'bebe', component: BebeComponent },
     { path: 'maternita', component: MaternitaComponent },
+    { path: 'smash-cake', component: SmashCakeComponent },
+    { path: 'famiglia', component: FamigliaComponent },
     { path: '**', redirectTo: '' }
   ];

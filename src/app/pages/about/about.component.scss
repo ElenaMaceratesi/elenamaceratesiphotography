@@ -37,8 +37,16 @@
   .chi-sono-body {
     display: flex;
     flex-direction: row;
+    align-self: center;
+    max-width: 1200px;
+    width: 100%;
   }
-
+  .inside-second-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 10px 10px 0;
+  }
   .text {
     width: 70%;
     display: flex;
@@ -183,7 +191,9 @@
         font-size: 18px;
       }
     }
-
+    .inside-second-body {
+      padding: 0 0 10px 0;
+    }
     .text-content {
       width: 95%;
     }
