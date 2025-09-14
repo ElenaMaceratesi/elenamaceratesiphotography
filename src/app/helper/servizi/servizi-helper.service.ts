@@ -44,11 +44,13 @@ export class ServiziHelperService {
     },
     {
       foto: '/assets/servizi/elenco/esterna.jpg',
-      servizio: 'Servizi in esterna'
+      servizio: 'Servizi in esterna',
+      path: '/in-esterna'
     },
     {
       foto: '/assets/servizi/elenco/minisessioni.jpg',
-      servizio: 'Mini sessioni'
+      servizio: 'Mini sessioni',
+      path: '/mini-sessioni'
     },
     {
       foto: '/assets/servizi/elenco/ritratto.jpg',
