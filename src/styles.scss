@@ -61,7 +61,7 @@ img {
     color: white;
     top: 95%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -60%);
   }
 
   .sub-tilte {
@@ -144,6 +144,12 @@ img {
     margin-bottom: 20px;
     align-items: center;
     justify-content: center;
+  }
+
+  .column-photos {
+    flex-direction: column;
+    gap: 10px;
+    display: flex
   }
 
   .content-row:last-child {
@@ -258,11 +264,6 @@ img {
       height: 400px;
     }
 
-    .column-photos {
-      flex-direction: column;
-      gap: 10px;
-      display: flex
-    }
   }
   .bottom-section {
     .sub-tilte {

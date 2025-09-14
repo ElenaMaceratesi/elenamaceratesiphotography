@@ -51,6 +51,7 @@
   .preview {
     flex-direction: column;
     align-items: center;
+    gap: 0px;
 
     .preview-element {
       flex: 0 0 80%;
@@ -66,7 +67,7 @@
     .preview-element {
       flex: 0 0 90%;
       max-width: 90%;
-      font-size: 28px; /* Font ancora più piccolo su schermi molto piccoli */
+      font-size: 50px; /* Font ancora più piccolo su schermi molto piccoli */
     }
   }
 }

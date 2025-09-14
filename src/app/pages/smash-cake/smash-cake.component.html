@@ -1,0 +1,105 @@
+<section class="servizi">
+    <div class="header-container">
+        <div class="photo-header"></div>
+        <div class="servizi-header">Smash Cake</div>
+    </div>
+    <div class="servizi-body">
+        <div class="text">
+            <div class="text-content">
+                <div>
+                    <span class="sub-tilte">Perchè regalarsi un servizio maternità ? </span>
+                </div>
+                <p>Il servizio Smash Cake è pensato per festeggiare in modo speciale il primo compleanno del tuo bambino. 
+                    Il servizio inizia con degli scatti di famiglia che raccontano, in modo naturale e giocoso, il vostro legame. 
+                    Poi arriva il momento più atteso: la torta. 
+                    Il tuo bimbo si troverà davanti alla sua prima torta di compleanno (preparata appositamente per il servizio con pan di spagna e panna senza zucchero), che potrà scoprire in totale libertà: assaggiandola, toccandola, distruggendola. 
+                    Tra risate, espressioni buffe e piccoli assaggi, ogni gesto diventa un ricordo prezioso e pieno di gioia.
+                    Il servizio si conclude con il milk bath, il bagnetto nell’amido di riso. 
+                    Questo è spesso il momento preferito dai bambini, perché mentre l’incontro con la torta è un’esperienza nuova, il bagnetto è familiare. 
+                    Proprio per questo anche i più timidi si sciolgono e si divertono giocando e schizzando acqua ovunque.
+                </p>
+                <p>
+                    La sessione ha una durata variabile, da 1 a 2 ore. Per rispettare i tempi e le esigenze del bambino non andrò mai di fretta così lui avrà a disposizione tutto il tempo necessario per sentirsi sereno e a suo agio. </p>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="/assets/home/servizi/maternità/foto1.jpg" alt="">
+        </div>
+    </div>
+    <div class="servizi-body" style="background-color: #f2eadc; width: 100%; flex-direction: column">
+        <div class="smash-cake-body">
+            <div style="display: flex; flex-direction: column; flex:2; align-items: center">
+                <div class="text" style="width: 80%">
+                    <div class="text-content">
+                        <div>
+                            <span class="sub-tilte">Quando farlo? </span>
+                        </div>
+                        <p>
+                            Se desiderate ricevere le foto prima del compleanno, ad esempio per realizzare inviti, allestimenti o bomboniere, vi consiglio di svolgere il servizio con almeno un mese di anticipo. 
+                            In alternativa, potete scegliere liberamente il momento che preferite.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div style="display: flex; flex-direction: column; flex:2; align-items: center">
+                <div class="text" style="width: 80%">
+                    <div class="text-content">
+                        <div>
+                            <span class="sub-tilte">Chi può partecipare ? </span>
+                        </div>
+                        <p>
+                            Il servizio è pensato non solo per il vostro bimbo, ma anche per la mamma, il papà, 
+                            i fratellini maggiori e per i vostri amici a quattro zampe, perché ogni membro della famiglia merita di essere parte di questo dolce ricordo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="smash-cake-body">
+            @for (photo of middle_photos; track photo.src) {
+                <div class="image-section" style="flex: 4">
+                    <img [src]="photo.src" alt="">
+                </div>
+            }
+        </div>
+    </div>
+    <div class="servizi-body" style="width: 100%">
+
+        <div style="display: flex; flex-direction: column; width: 100%">
+            <!-- Prima riga: primo paragrafo + prima immagine -->
+            <div class="content-row">
+                <div class="text">
+                    <div class="text-content">
+                        <div>
+                            <span class="sub-tilte">Cosa Portare ? </span>
+                        </div>
+                        <p>
+                            Per rendere tutto ancora più speciale, metto a disposizione una selezione di vestitini per il vostro bimbo e abiti sartoriali per la mamma, così da farvi sentire curati e coccolati senza dover pensare a nulla.
+                            Per i papà, consiglio un look semplice sui toni neutri, come pantaloni beige o un jeans chiaro abbinato a una camicia di lino, una camicia bianca o una t-shirt bianca senza scritte.
+                            La torta è inclusa nel servizio: penserò proprio a tutto io.
+                            Vi consiglio però di portare qualche snack, come biscottini o grissini, che il vostro bimbo ama particolarmente, così da aiutarlo a sentirsi più a suo agio nel caso faccia un po’ di fatica ad interagire con la torta.
+                            Per il post-bagnetto potete portare un vostro asciugamano se preferite, ma il mio studio è comunque fornito di tutto il necessario.
+                        </p>
+                        <div>
+                            <span class="sub-tilte">Quanto Costa ? </span>
+                        </div>
+                        <p>
+                            Il servizio smash cake parte da 260€ e include tutto il necessario per vivere un’esperienza speciale e senza pensieri.
+                            Per ricevere tutti i dettagli e trovare insieme la proposta più adatta a te, contattami senza impegno. Sarò felice di aiutarti!
+                        </p>
+                    </div>
+                </div>
+                <div style="flex-direction: column">
+                    <div class="image-section">
+                        <img src="/assets/home/servizi/maternità/foto6.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-section">
+        <span class="sub-tilte line">Guarda le gallery dei servizi smash cake</span>
+        <span class="sub-tilte" style="margin-top: 15px"><a routerLink="/contatti">Contattmi subito</a></span>
+    </div>
+    <app-bottom-gallery [photos_input]="bottom_photos"></app-bottom-gallery>
+</section>

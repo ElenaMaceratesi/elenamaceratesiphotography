@@ -33,12 +33,14 @@ export class ServiziHelperService {
     {
       foto: '/assets/servizi/elenco/smashcake.jpg',
       servizio: 'Smash cake',
-      descrizione: 'Per festeggiare il primo compleanno'
+      descrizione: 'Per festeggiare il primo compleanno',
+      path: '/smash-cake'
     },
     {
       foto: '/assets/servizi/elenco/famiglia.jpg',
       servizio: 'Famiglia',
-      descrizione: 'Da 1 anno in poi'
+      descrizione: 'Da 1 anno in poi',
+      path: '/famiglia'
     },
     {
       foto: '/assets/servizi/elenco/esterna.jpg',
