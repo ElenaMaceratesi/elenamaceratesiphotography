@@ -54,7 +54,8 @@ export class ServiziHelperService {
     },
     {
       foto: '/assets/servizi/elenco/ritratto.jpg',
-      servizio: 'Ritratto'
+      servizio: 'Ritratto',
+      path: '/ritratto'
     }
   ];
   constructor() { }

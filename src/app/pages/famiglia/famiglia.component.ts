@@ -13,10 +13,10 @@ import { RouterLink } from '@angular/router';
 })
 export class FamigliaComponent {
   photos = [
-    { src: '/assets/home/servizi/bebe/striscia1.jpg', alt: 'Neonato che dorme' },
-    { src: '/assets/home/servizi/bebe/striscia2.jpg', alt: 'Famiglia con neonato' },
-    { src: '/assets/home/servizi/bebe/striscia3.jpg', alt: 'Coppia con bambino' },
-    { src: '/assets/home/servizi/bebe/striscia4.jpg', alt: 'Bambina sorridente' },
-    { src: '/assets/home/servizi/bebe/striscia5.jpg', alt: 'Momento familiare' }
+    { src: '/assets/home/servizi/famiglia/striscia1.jpg', alt: 'Neonato che dorme' },
+    { src: '/assets/home/servizi/famiglia/striscia2.jpg', alt: 'Famiglia con neonato' },
+    { src: '/assets/home/servizi/famiglia/striscia3.jpg', alt: 'Coppia con bambino' },
+    { src: '/assets/home/servizi/famiglia/striscia4.jpg', alt: 'Bambina sorridente' },
+    { src: '/assets/home/servizi/famiglia/striscia5.jpg', alt: 'Momento familiare' }
   ];
 }
