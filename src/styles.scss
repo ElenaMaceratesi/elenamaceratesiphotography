@@ -68,7 +68,7 @@ img {
     font-family: 'Adventures Unlimited', cursive;
     font-weight: normal;
     align-self: center;
-    font-size: clamp(24px, 8vw, 62px);
+    font-size: clamp(24px, 10vw, 62px);
     color: #634040;
   }
 
@@ -80,6 +80,13 @@ img {
     width: 100%;
   }
 
+  .inside-second-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 10px 10px 0;
+  }
+
   .text {
     width: 70%;
     display: flex;
@@ -87,18 +94,27 @@ img {
     font-family: 'Questrial', sans-serif;
     font-weight: normal;
     text-align: center;
-    justify-content: center;
+    height: 100%;
+    justify-content: space-between;
 
     p {
       font-size: 18px;
       font-weight: lighter;
       color: #634040;
+      width: 70%;
+    }
+
+    .paragraph-spacer {
+      margin-top: 80px;
     }
   }
 
   .text-content {
-    width: 80%;
+    // width: 80%;
     align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .photo-body {
@@ -211,10 +227,18 @@ img {
       width: 100% !important; /* Forza l'applicazione */
 
       p {
-        font-size: 18px;
+        font-size: 16px;
+        width: unset;
+      }
+
+      .paragraph-spacer {
+        margin-top: unset;
       }
     }
 
+    .inside-second-body {
+      padding: 0 0 10px 0;
+    }
     .text-content {
       width: 95%;
     }
@@ -232,6 +256,12 @@ img {
     .single-image img {
       max-width: 300px;
       height: 400px;
+    }
+
+    .column-photos {
+      flex-direction: column;
+      gap: 10px;
+      display: flex
     }
   }
   .bottom-section {

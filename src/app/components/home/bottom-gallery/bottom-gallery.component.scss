@@ -85,7 +85,7 @@ $desktop-min: 1024px;
 
   img {
     width: 100%;
-    height: 170px;
+    height: 190px;
     object-fit: inherit;
     display: block;
   }
@@ -160,7 +160,7 @@ $desktop-min: 1024px;
 /* Desktop: 5 foto */
 @media (min-width: $desktop-min) {
   .photo-item {
-    width: calc((100% - 4rem) / 5);
+    width: calc((100%) / 5);
   }
 
   .gallery-grid {
