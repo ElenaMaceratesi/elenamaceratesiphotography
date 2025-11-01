@@ -16,7 +16,8 @@ export class ServiziHelperService {
     {
       foto: '/assets/servizi/elenco/newborn.jpg',
       servizio: 'Newborn',
-      descrizione: 'Entro il primo mese di vita'
+      descrizione: 'Entro il primo mese di vita',
+      path: '/newborn'
     },
     {
       foto: '/assets/servizi/elenco/primimesi.jpg',

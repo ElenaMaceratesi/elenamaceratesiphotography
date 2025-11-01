@@ -1,0 +1,104 @@
+<section class="servizi">
+    <div class="header-container">
+        <div class="photo-header"></div>
+        <div class="servizi-header">Newborn</div>
+    </div>
+    <div class="servizi-body">
+        <div class="text">
+            <div class="text-content">
+                <div>
+                    <span class="sub-tilte">Perché il servizio newborn è il regalo più prezioso che puoi fare al tuo bambino? </span>
+                </div>
+                <p>La nascita di un figlio è uno dei momenti più importanti e significativi per una famiglia, un’emozione che merita di essere custodita per sempre.
+                    Un servizio fotografico newborn è il modo per fermare nel tempo la magia dei primi giorni di vita, attraverso immagini che racconteranno l’inizio della vostra nuova avventura insieme.
+                    In un’atmosfera intima e rilassata avrò modo di immortalare attimi semplici e naturali, ricchi di dolcezza: la poppata, il ruttino e le coccole tra di voi. Non mancheranno ritratti del vostro bambino, 
+                    sia da sveglio, con tutte le sue espressioni buffe e spontanee, sia mentre dorme, per raccontarne la tenerezza.
+                    Se amate le foto in posa classiche dei servizi newborn non preoccupatevi, avrete la possibilità di personalizzare il servizio con l'aggiunta dei vostri set preferiti.
+                    Come fotografa specializzata in servizi newborn, so quanto la sicurezza sia fondamentale: ogni posa, gesto e dettaglio viene seguito con la massima attenzione, per garantire sempre benessere e tranquillità al vostro bambino.
+
+                </p>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="/assets/home/servizi/maternità/foto1.jpg" alt="">
+        </div>
+    </div>
+    <div class="servizi-body" style="background-color: #f2eadc; width: 100%; flex-direction: column">
+        <div class="newborn-body">
+            <div style="display: flex; flex-direction: column; flex:2; align-items: center">
+                <div class="text" style="width: 80%">
+                    <div class="text-content">
+                        <div>
+                            <span class="sub-tilte">Quando è il momento migliore per farlo? </span>
+                        </div>
+                        <p>
+                            Il momento ideale per realizzare un servizio newborn è entro le prime due settimane di vita del bambino.
+                            È comunque possibile svolgerlo fino al primo mese, anche se con qualche difficoltà in più. In questo periodo il neonato mantiene ancora la posizione fetale,
+                            riesce a raggiungere più facilmente un sonno profondo e, nella maggior parte dei casi, non sono ancora comparse le prime colichette.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div style="display: flex; flex-direction: column; flex:2; align-items: center">
+                <div class="text" style="width: 80%">
+                    <div class="text-content">
+                        <div>
+                            <span class="sub-tilte">Chi può partecipare? </span>
+                        </div>
+                        <p>
+                            Il servizio è pensato non solo per il vostro bimbo, ma anche per la mamma, il papà, i fratellini maggiori e per i vostri amici a quattro zampe,
+                            perché ogni membro della famiglia merita di essere parte di questo dolce ricordo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="newborn-body">
+            @for (photo of middle_photos; track photo.src) {
+                <div class="image-section" style="flex: 4">
+                    <img [src]="photo.src" alt="">
+                </div>
+            }
+        </div>
+    </div>
+    <div class="servizi-body" style="width: 100%">
+
+        <div style="display: flex; flex-direction: column; width: 100%">
+            <!-- Prima riga: primo paragrafo + prima immagine -->
+            <div class="content-row">
+                <div class="text">
+                    <div class="text-content">
+                        <div>
+                            <span class="sub-tilte">Cosa Portare ? </span>
+                        </div>
+                        <p>
+                            Latte e pannolini a volontà!
+                            In studio troverete già tutto il necessario per la sessione, ma vi chiedo di portare un ciuccio: anche se il vostro bimbo non è abituato a usarlo, potrebbe rivelarsi utile tra una posa e l’altra. Non preoccupatevi,
+                            un utilizzo di pochi minuti non gli creerà problemi.
+                            Se la mamma lo dedisera metto a disposizione per lei una vasta gamma di abiti adatti, le basterà indossare un intimo color carne. Anche le bambine, di qualsiasi età, potranno indossare gli abiti disponibili in studio.
+                            Per i papà e i maschietti, consiglio un look semplice nei toni neutri, come pantaloni beige o un jeans chiaro abbinato a una camicia di lino, una camicia bianca o una t-shirt bianca senza scritte.
+                        </p>
+                        <div>
+                            <span class="sub-tilte">Quanto Costa ? </span>
+                        </div>
+                        <p>
+                            Il servizio newborn parte da 350€ e include tutto il necessario per vivere un’esperienza speciale e senza pensieri. Per ricevere tutti i dettagli e trovare insieme la proposta più adatta a te,
+                            contattami senza impegno. Sarò felice di aiutarti!
+                        </p>
+                    </div>
+                </div>
+                <div style="flex-direction: column">
+                    <div class="image-section">
+                        <img src="/assets/home/servizi/maternità/foto6.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bottom-section">
+        <span class="sub-tilte line">Guarda le gallery dei servizi maternità</span>
+        <span class="sub-tilte" style="margin-top: 15px"><a routerLink="/contatti">Contattmi subito</a></span>
+    </div>
+    <app-bottom-gallery [photos_input]="bottom_photos"></app-bottom-gallery>
+</section>

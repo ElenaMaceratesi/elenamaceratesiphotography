@@ -5,7 +5,6 @@ import { RouterLink } from '@angular/router';
 @Component({
   selector: 'app-ritratto',
   imports: [
-    BottomGalleryComponent,
     RouterLink
   ],
   templateUrl: './ritratto.component.html',

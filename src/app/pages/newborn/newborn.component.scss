@@ -1,0 +1,36 @@
+.photo-header {
+  background-image: url('/assets/home/servizi/maternità/copertina.jpg') ;
+}
+
+.maternità-spaced-div {
+  padding-top: 60px;
+}
+
+.newborn-body {
+  display: flex;
+  flex-direction: row;
+}
+
+p {
+  width: 70%;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .newborn-body {
+    flex-direction: column;
+  }
+
+  .maternità-spaced-div {
+    padding-top: 0;
+  }
+
+  p {
+    width: unset;
+  }
+}

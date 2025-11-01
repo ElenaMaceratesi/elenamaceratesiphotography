@@ -12,6 +12,7 @@ import { FamigliaComponent } from './pages/famiglia/famiglia.component';
 import { ServiziInEsternaComponent } from './pages/servizi-in-esterna/servizi-in-esterna.component';
 import { MiniSessioniComponent } from './pages/mini-sessioni/mini-sessioni.component';
 import { RitrattoComponent } from './pages/ritratto/ritratto.component';
+import { NewbornComponent } from './pages/newborn/newborn.component';
 
 export const routes: Routes = [
     { path: '', component: HomeComponent },
@@ -27,5 +28,6 @@ export const routes: Routes = [
     { path: 'in-esterna', component: ServiziInEsternaComponent },
     { path: 'mini-sessioni', component: MiniSessioniComponent },
     { path: 'ritratto', component: RitrattoComponent },
+    { path: 'newborn', component: NewbornComponent },
     { path: '**', redirectTo: '' }
   ];
