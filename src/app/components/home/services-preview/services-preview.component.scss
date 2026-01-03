@@ -21,7 +21,7 @@
     text-align: center;
     font-family: 'Adventures Unlimited', cursive;
     font-weight: normal;
-    font-size: 40px;
+    font-size: 52px;
     flex: 0 0 25%; /* Larghezza fissa al 22% */
     max-width: 30%; /* Massima larghezza del 22% */
 
@@ -44,6 +44,22 @@
 
   &:hover {
     color: #a8674d;
+  }
+}
+
+.line {
+  position: relative;
+  display: inline-block;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -20px;
+    width: 75%;
+    height: 1px;
+    background-color: #634040;
   }
 }
 /* Media queries per responsive design */

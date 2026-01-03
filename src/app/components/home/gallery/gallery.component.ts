@@ -10,11 +10,14 @@ import { CommonModule } from '@angular/common';
 })
 export class GalleryComponent {
   images = [
-    '/assets/home/chisono/elenapanoramica.jpg',
-    '/assets/home/carosello/gallery4.png',
-    '/assets/home/carosello/gallery5.png',
-    '/assets/home/carosello/gallery6.png',
-    '/assets/home/carosello/pancia.jpg'
+    '/assets/home/carosello/foto1.jpg',
+    '/assets/home/carosello/foto2.jpg',
+    '/assets/home/carosello/foto3.jpg',
+    '/assets/home/carosello/foto4.jpg',
+    '/assets/home/carosello/foto5.jpg',
+    '/assets/home/carosello/foto6.jpg',
+    '/assets/home/carosello/foto7.jpg',
+    '/assets/home/carosello/foto8.jpg'
   ];
 
   //test

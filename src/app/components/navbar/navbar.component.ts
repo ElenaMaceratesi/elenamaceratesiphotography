@@ -21,7 +21,7 @@ export class NavbarComponent implements OnInit, OnDestroy {
   }
 
   ngOnInit(): void {
-    this.subscription = this.router.events.subscribe(event => {this.transparentBackground = this.router.url !== '/'})
+    this.subscription = this.router.events.subscribe(event => {this.transparentBackground = this.router.url !== '/contatti'})
   }
 
   ngOnDestroy(): void {
