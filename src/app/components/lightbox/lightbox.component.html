@@ -1,5 +1,5 @@
-<div class="lightbox-overlay" (click)="closeLightbox()" *ngIf="isOpen">
-    <div class="lightbox-container" (click)="$event.stopPropagation()">
+<div class="lightbox-overlay" (click)="closeLightbox()" *ngIf="isOpen" (touchstart)="onTouchStart($event)" (touchend)="onTouchEnd($event)">
+    <div class="lightbox-container" (click)="$event.stopPropagation()" (touchstart)="onTouchStart($event)" (touchend)="onTouchEnd($event)">
         <button class="close-btn" (click)="closeLightbox()">✕</button>
         
         <div class="lightbox-content">
