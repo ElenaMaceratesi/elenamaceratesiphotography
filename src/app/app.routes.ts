@@ -13,6 +13,7 @@ import { ServiziInEsternaComponent } from './pages/servizi-in-esterna/servizi-in
 import { MiniSessioniComponent } from './pages/mini-sessioni/mini-sessioni.component';
 import { RitrattoComponent } from './pages/ritratto/ritratto.component';
 import { NewbornComponent } from './pages/newborn/newborn.component';
+import { GalleryPageComponent } from './pages/gallery/gallery-page.component';
 
 export const routes: Routes = [
     { path: '', component: HomeComponent },
@@ -29,5 +30,6 @@ export const routes: Routes = [
     { path: 'mini-sessioni', component: MiniSessioniComponent },
     { path: 'ritratto', component: RitrattoComponent },
     { path: 'newborn', component: NewbornComponent },
+    { path: 'gallery/:servizio', component: GalleryPageComponent },
     { path: '**', redirectTo: '' }
   ];

@@ -62,5 +62,6 @@ export class ContactFormComponent {
     const message = this.formData.message;
     const url = `https://wa.me/${this.phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
+    this.formData = { name: '', email: '', message: '' };
   }
 }

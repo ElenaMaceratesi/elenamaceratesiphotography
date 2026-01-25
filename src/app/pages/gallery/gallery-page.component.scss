@@ -1,0 +1,119 @@
+.gallery-page-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: 'Georgia', serif;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding: 2rem 0;
+  border-bottom: 2px solid #8B7355;
+
+  h1 {
+    font-family: 'Questrial', sans-serif;
+    font-size: 2.5rem;
+    color: #634040;
+    margin: 0;
+  }
+}
+
+.gallery-content {
+  margin-bottom: 3rem;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-bottom: 2rem;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+
+    img {
+      transform: scale(1.02);
+    }
+  }
+
+  @media (max-width: 768px) {
+    img {
+      height: 300px;
+    }
+  }
+}
+
+.no-photos {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #8B7355;
+  font-size: 1.2rem;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  padding-top: 2rem;
+  border-top: 2px solid #f2eadc;
+
+  @media (max-width: 480px) {
+    flex-direction: column;
+  }
+}
+
+.btn-back,
+.btn-contact {
+  padding: 0.875rem 2rem;
+  border: 2px solid #8B7355;
+  background-color: transparent;
+  color: #8B7355;
+  font-family: 'Questrial', sans-serif;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-block;
+
+  &:hover {
+    background-color: #8B7355;
+    color: #ffffff;
+    transform: translateY(-2px);
+  }
+}
+
+.btn-contact {
+  background-color: #8B7355;
+  color: #ffffff;
+
+  &:hover {
+    background-color: #634040;
+    border-color: #634040;
+  }
+}
