@@ -27,39 +27,67 @@ export class GalleryServiziService {
       nome: 'Maternità',
       photos: [
         { 
-          src: '/assets/home/servizi/maternità/foto2.jpg', 
-          alt: 'Coppia in esterna', 
-          nome: 'Elena',
+          src: '/assets/home/servizi/maternità/gallery/chiara&marco/foto13.jpg', 
+          alt: 'Servizio maternità Chiara e Marco', 
+          nome: 'Chiara & Marco',
           detailedPhotos: [
-            { src: '/assets/home/servizi/maternità/foto2.jpg', alt: 'Elena - Coppia in esterna' },
-            { src: '/assets/home/servizi/maternità/foto2b.jpg', alt: 'Elena - Primo piano' },
-            { src: '/assets/home/servizi/maternità/foto2c.jpg', alt: 'Elena - Dettagli' },
-            { src: '/assets/home/servizi/maternità/foto2d.jpg', alt: 'Elena - Tramonto' },
-            { src: '/assets/home/servizi/maternità/foto2e.jpg', alt: 'Elena - Momento intimo' }
+            { src: '/assets/home/servizi/maternità/gallery/chiara&marco/foto1.jpg', alt: 'Servizio maternità Chiara e Marco' },
+            { src: '/assets/home/servizi/maternità/gallery/chiara&marco/foto2.jpg', alt: 'Servizio maternità Chiara e Marco' },
+            { src: '/assets/home/servizi/maternità/gallery/chiara&marco/foto3.jpg', alt: 'Servizio maternità Chiara e Marco' },
+            { src: '/assets/home/servizi/maternità/gallery/chiara&marco/foto4.jpg', alt: 'CServizio maternità Chiara e Marco' },
+            { src: '/assets/home/servizi/maternità/gallery/chiara&marco/foto5.jpg', alt: 'Servizio maternità Chiara e Marco' },
+            { src: '/assets/home/servizi/maternità/gallery/chiara&marco/foto6.jpg', alt: 'Servizio maternità Chiara e Marco' },
+            { src: '/assets/home/servizi/maternità/gallery/chiara&marco/foto7.jpg', alt: 'Servizio maternità Chiara e Marco' },
+            { src: '/assets/home/servizi/maternità/gallery/chiara&marco/foto8.jpg', alt: 'Servizio maternità Chiara e Marco' },
+            { src: '/assets/home/servizi/maternità/gallery/chiara&marco/foto9.jpg', alt: 'Servizio maternità Chiara e Marco' },
+            { src: '/assets/home/servizi/maternità/gallery/chiara&marco/foto10.jpg', alt: 'Servizio maternità Chiara e Marco' },
+            { src: '/assets/home/servizi/maternità/gallery/chiara&marco/foto11.jpg', alt: 'Servizio maternità Chiara e Marco' },
+            { src: '/assets/home/servizi/maternità/gallery/chiara&marco/foto12.jpg', alt: 'Servizio maternità Chiara e Marco' },
+            { src: '/assets/home/servizi/maternità/gallery/chiara&marco/foto13.jpg', alt: 'Servizio maternità Chiara e Marco' },
+            { src: '/assets/home/servizi/maternità/gallery/chiara&marco/foto14.jpg', alt: 'Servizio maternità Chiara e Marco' },
+            { src: '/assets/home/servizi/maternità/gallery/chiara&marco/foto15.jpg', alt: 'Servizio maternità Chiara e Marco' },
+            { src: '/assets/home/servizi/maternità/gallery/chiara&marco/foto16.jpg', alt: 'Servizio maternità Chiara e Marco' },
+            { src: '/assets/home/servizi/maternità/gallery/chiara&marco/foto17.jpg', alt: 'Servizio maternità Chiara e Marco' },
+            { src: '/assets/home/servizi/maternità/gallery/chiara&marco/foto18.jpg', alt: 'Servizio maternità Chiara e Marco' }
           ]
         },
         { 
-          src: '/assets/home/servizi/maternità/foto3.jpg', 
-          alt: 'Coppia con cane', 
-          nome: 'Marco',
+          src: '/assets/home/servizi/maternità/gallery/marina&matteo/foto8.jpg', 
+          alt: 'Servizio maternità Marina e Matteo', 
+          nome: 'Marina & Matteo',
           detailedPhotos: [
-            { src: '/assets/home/servizi/maternità/foto3.jpg', alt: 'Marco - Coppia con cane' },
-            { src: '/assets/home/servizi/maternità/foto3b.jpg', alt: 'Marco - Con cane' },
-            { src: '/assets/home/servizi/maternità/foto3c.jpg', alt: 'Marco - Primo piano' },
-            { src: '/assets/home/servizi/maternità/foto3d.jpg', alt: 'Marco - In esterna' },
-            { src: '/assets/home/servizi/maternità/foto3e.jpg', alt: 'Marco - Dettagli' }
+            { src: '/assets/home/servizi/maternità/gallery/marina&matteo/foto1.jpg', alt: 'Servizio maternità Marina e Matteo' },
+            { src: '/assets/home/servizi/maternità/gallery/marina&matteo/foto2.jpg', alt: 'Servizio maternità Marina e Matteo' },
+            { src: '/assets/home/servizi/maternità/gallery/marina&matteo/foto3.jpg', alt: 'Servizio maternità Marina e Matteo' },
+            { src: '/assets/home/servizi/maternità/gallery/marina&matteo/foto4.jpg', alt: 'Servizio maternità Marina e Matteo' },
+            { src: '/assets/home/servizi/maternità/gallery/marina&matteo/foto5.jpg', alt: 'Servizio maternità Marina e Matteo' },
+            { src: '/assets/home/servizi/maternità/gallery/marina&matteo/foto6.jpg', alt: 'Servizio maternità Marina e Matteo' },
+            { src: '/assets/home/servizi/maternità/gallery/marina&matteo/foto7.jpg', alt: 'Servizio maternità Marina e Matteo' },
+            { src: '/assets/home/servizi/maternità/gallery/marina&matteo/foto8.jpg', alt: 'Servizio maternità Marina e Matteo' },
+            { src: '/assets/home/servizi/maternità/gallery/marina&matteo/foto9.jpg', alt: 'Servizio maternità Marina e Matteo' },
+            { src: '/assets/home/servizi/maternità/gallery/marina&matteo/foto10.jpg', alt: 'Servizio maternità Marina e Matteo' }
+          
           ]
         },
         { 
-          src: '/assets/home/servizi/maternità/foto4.jpg', 
-          alt: 'Bacio alla pancia', 
-          nome: 'Sofia',
+          src: '/assets/home/servizi/maternità/gallery/francesca&gabriel/foto1.jpg', 
+          alt: 'Servizio maternità Francesca e Gabriel', 
+          nome: 'Francesca & Gabriel',
           detailedPhotos: [
-            { src: '/assets/home/servizi/maternità/foto4.jpg', alt: 'Sofia - Bacio alla pancia' },
-            { src: '/assets/home/servizi/maternità/foto4b.jpg', alt: 'Sofia - Primo piano' },
-            { src: '/assets/home/servizi/maternità/foto4c.jpg', alt: 'Sofia - Dettagli pancia' },
-            { src: '/assets/home/servizi/maternità/foto4d.jpg', alt: 'Sofia - Coppia' },
-            { src: '/assets/home/servizi/maternità/foto4e.jpg', alt: 'Sofia - Profilo' }
+            { src: '/assets/home/servizi/maternità/gallery/francesca&gabriel/foto1.jpg', alt: 'Servizio maternità Francesca e Gabriel' },
+            { src: '/assets/home/servizi/maternità/gallery/francesca&gabriel/foto2.jpg', alt: 'Servizio maternità Francesca e Gabriel' },
+            { src: '/assets/home/servizi/maternità/gallery/francesca&gabriel/foto3.jpg', alt: 'Servizio maternità Francesca e Gabriel' },
+            { src: '/assets/home/servizi/maternità/gallery/francesca&gabriel/foto4.jpg', alt: 'Servizio maternità Francesca e Gabriel' },
+            { src: '/assets/home/servizi/maternità/gallery/francesca&gabriel/foto5.jpg', alt: 'Servizio maternità Francesca e Gabriel' },
+            { src: '/assets/home/servizi/maternità/gallery/francesca&gabriel/foto6.jpg', alt: 'Servizio maternità Francesca e Gabriel' },
+            { src: '/assets/home/servizi/maternità/gallery/francesca&gabriel/foto7.jpg', alt: 'Servizio maternità Francesca e Gabriel' },
+            { src: '/assets/home/servizi/maternità/gallery/francesca&gabriel/foto8.jpg', alt: 'Servizio maternità Francesca e Gabriel' },
+            { src: '/assets/home/servizi/maternità/gallery/francesca&gabriel/foto9.jpg', alt: 'Servizio maternità Francesca e Gabriel' },
+            { src: '/assets/home/servizi/maternità/gallery/francesca&gabriel/foto10.jpg', alt: 'Servizio maternità Francesca e Gabriel' },
+            { src: '/assets/home/servizi/maternità/gallery/francesca&gabriel/foto11.jpg', alt: 'Servizio maternità Francesca e Gabriel' },
+            { src: '/assets/home/servizi/maternità/gallery/francesca&gabriel/foto12.jpg', alt: 'Servizio maternità Francesca e Gabriel' },
+            { src: '/assets/home/servizi/maternità/gallery/francesca&gabriel/foto13.jpg', alt: 'Servizio maternità Francesca e Gabriel' },
+            { src: '/assets/home/servizi/maternità/gallery/francesca&gabriel/foto14.jpg', alt: 'Servizio maternità Francesca e Gabriel' }
           ]
         }
       ]
