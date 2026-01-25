@@ -1,6 +1,6 @@
 <!-- carousel.component.html -->
 <section class="carousel-section">
-    <div class="carousel-container">
+    <div class="carousel-container" (touchstart)="onTouchStart($event)" (touchend)="onTouchEnd($event)">
         <div #carouselTrack (transitionend)="onTransitionEnd()">
             <div class="carousel-item">
                 <img [src]="images[currentIndex]" alt="Immagine del carosello">

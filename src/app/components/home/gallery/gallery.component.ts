@@ -28,6 +28,9 @@ export class GalleryComponent {
 
   currentIndex = 0;
   isTransitioning = false;
+  private touchStartX: number = 0;
+  private touchEndX: number = 0;
+  private readonly SWIPE_THRESHOLD = 50;
 
   get displayImages() {
     const totalImages = this.images.length;
@@ -58,5 +61,31 @@ export class GalleryComponent {
 
   goToSlide(index: number) {
     this.currentIndex = index;
+  }
+
+  onTouchStart(event: TouchEvent) {
+    if (event.touches.length > 0) {
+      this.touchStartX = event.touches[0].clientX;
+    }
+  }
+
+  onTouchEnd(event: TouchEvent) {
+    if (event.changedTouches.length > 0) {
+      this.touchEndX = event.changedTouches[0].clientX;
+      this.handleSwipe();
+    }
+  }
+
+  private handleSwipe() {
+    const difference = this.touchStartX - this.touchEndX;
+
+    // Swipe left - go to next photo
+    if (difference > this.SWIPE_THRESHOLD) {
+      this.next();
+    }
+    // Swipe right - go to previous photo
+    else if (difference < -this.SWIPE_THRESHOLD) {
+      this.prev();
+    }
   }
 }

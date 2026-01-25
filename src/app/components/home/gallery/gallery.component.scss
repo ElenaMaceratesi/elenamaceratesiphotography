@@ -63,6 +63,11 @@
   &.next {
     right: 30px;
   }
+
+  // Nascondi frecce su mobile
+  @media (max-width: 768px) {
+    display: none;
+  }
 }
 
 // Indicatori
