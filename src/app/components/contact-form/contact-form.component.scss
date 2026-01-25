@@ -56,3 +56,18 @@
       color: #555;
     }
   }
+
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .helper-text {
+    font-size: 0.85rem;
+    color: #777;
+    margin: 6px 0 10px;
+  }
+  
+  .whatsapp-btn {
+    background-color: #25d366;
+  }

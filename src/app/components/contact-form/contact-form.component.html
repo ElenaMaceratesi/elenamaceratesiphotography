@@ -1,13 +1,53 @@
 <section class="contact-form">
-    <h2>Contattami</h2>
-    <form (ngSubmit)="submitForm()">
-      <input type="text" placeholder="Nome" [(ngModel)]="formData.name" name="name" required />
-      <input type="email" placeholder="Email" [(ngModel)]="formData.email" name="email" required />
-      <textarea rows="5" placeholder="Messaggio" [(ngModel)]="formData.message" name="message" required></textarea>
-      <button type="submit">Invia</button>
-    </form>
-  </section>
-  <!-- <section *ngIf="submitted" class="thank-you">
-    <h2>Grazie ✨</h2>
-    <p>Il tuo messaggio è stato inviato correttamente.</p>
-  </section> -->
+  <h2>Contattami</h2>
+
+  <form>
+    <input
+      type="text"
+      placeholder="Nome"
+      [(ngModel)]="formData.name"
+      name="name"
+    />
+
+    <input
+      type="email"
+      placeholder="Email"
+      [(ngModel)]="formData.email"
+      name="email"
+    />
+
+    <textarea
+      rows="5"
+      placeholder="Messaggio"
+      [(ngModel)]="formData.message"
+      name="message"
+    ></textarea>
+
+    <!-- AIUTO EMAIL -->
+    <p class="helper-text">
+      ✉️ Compila <strong>nome, email e messaggio</strong> per inviare una mail.
+    </p>
+
+    <button
+      type="submit"
+      (click)="submitForm()"
+      [disabled]="!isEmailFormValid"
+    >
+      Invia
+    </button>
+
+    <!-- AIUTO WHATSAPP -->
+    <p class="helper-text">
+      💬 Se preferisci, puoi scrivermi su WhatsApp compilando solo il messaggio.
+    </p>
+
+    <button
+      type="button"
+      (click)="sendOnWhatsapp()"
+      [disabled]="!isWhatsappValid"
+      class="whatsapp-btn"
+    >
+      Invia su WhatsApp
+    </button>
+  </form>
+</section>

@@ -18,9 +18,24 @@ export class ContactFormComponent {
     message: ''
   };
 
-  submitted = false; // 👈 per sbiancare la pagina
+  phoneNumber = '393406184009';
+  submitted = false;
+
+  get isEmailFormValid(): boolean {
+    return (
+      this.formData.name.trim() !== '' &&
+      this.formData.email.trim() !== '' &&
+      this.formData.message.trim() !== ''
+    );
+  }
+
+  get isWhatsappValid(): boolean {
+    return this.formData.message.trim() !== '';
+  }
 
   submitForm() {
+    if (!this.isEmailFormValid) return;
+
     emailjs.send(
       'service_4yu0yta',
       'template_3218k7f',
@@ -32,12 +47,20 @@ export class ContactFormComponent {
       'DOAqcMs2N-McC6_rV'
     )
     .then(() => {
-      this.submitted = true; // 👈 pagina vuota
+      this.submitted = true;
       this.formData = { name: '', email: '', message: '' };
     })
     .catch((error) => {
       console.error('Errore invio mail', error);
       alert('Errore nell’invio del messaggio');
     });
+  }
+
+  sendOnWhatsapp() {
+    if (!this.isWhatsappValid) return;
+
+    const message = this.formData.message;
+    const url = `https://wa.me/${this.phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(url, '_blank');
   }
 }
