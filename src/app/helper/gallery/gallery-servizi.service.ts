@@ -163,39 +163,72 @@ export class GalleryServiziService {
       nome: 'Primi Mesi',
       photos: [
         { 
-          src: '/assets/home/servizi/primimesi/foto2.jpg', 
-          alt: 'Bambino sorridente', 
-          nome: 'Emma',
+          src: '/assets/home/servizi/primimesi/gallery/edoardo/foto15.jpg', 
+          alt: 'Servizio primi mesi Edoardo', 
+          nome: 'Edoardo',
           detailedPhotos: [
-            { src: '/assets/home/servizi/primimesi/foto2.jpg', alt: 'Emma - Sorridente' },
-            { src: '/assets/home/servizi/primimesi/foto2b.jpg', alt: 'Emma - Primo piano' },
-            { src: '/assets/home/servizi/primimesi/foto2c.jpg', alt: 'Emma - Gioco' },
-            { src: '/assets/home/servizi/primimesi/foto2d.jpg', alt: 'Emma - Con mamma' },
-            { src: '/assets/home/servizi/primimesi/foto2e.jpg', alt: 'Emma - Dettagli' }
+            { src: '/assets/home/servizi/primimesi/gallery/edoardo/foto1.jpg', alt: 'Servizio primi mesi Edoardo' },
+            { src: '/assets/home/servizi/primimesi/gallery/edoardo/foto2.jpg', alt: 'Servizio primi mesi Edoardo' },
+            { src: '/assets/home/servizi/primimesi/gallery/edoardo/foto3.jpg', alt: 'Servizio primi mesi Edoardo' },
+            { src: '/assets/home/servizi/primimesi/gallery/edoardo/foto4.jpg', alt: 'Servizio primi mesi Edoardo' },
+            { src: '/assets/home/servizi/primimesi/gallery/edoardo/foto5.jpg', alt: 'Servizio primi mesi Edoardo' },
+            { src: '/assets/home/servizi/primimesi/gallery/edoardo/foto6.jpg', alt: 'Servizio primi mesi Edoardo' },
+            { src: '/assets/home/servizi/primimesi/gallery/edoardo/foto7.jpg', alt: 'Servizio primi mesi Edoardo' },
+            { src: '/assets/home/servizi/primimesi/gallery/edoardo/foto8.jpg', alt: 'Servizio primi mesi Edoardo' },
+            { src: '/assets/home/servizi/primimesi/gallery/edoardo/foto9.jpg', alt: 'Servizio primi mesi Edoardo' },
+            { src: '/assets/home/servizi/primimesi/gallery/edoardo/foto10.jpg', alt: 'Servizio primi mesi Edoardo' },
+            { src: '/assets/home/servizi/primimesi/gallery/edoardo/foto11.jpg', alt: 'Servizio primi mesi Edoardo' },
+            { src: '/assets/home/servizi/primimesi/gallery/edoardo/foto12.jpg', alt: 'Servizio primi mesi Edoardo' },
+            { src: '/assets/home/servizi/primimesi/gallery/edoardo/foto13.jpg', alt: 'Servizio primi mesi Edoardo' },
+            { src: '/assets/home/servizi/primimesi/gallery/edoardo/foto14.jpg', alt: 'Servizio primi mesi Edoardo' },
+            { src: '/assets/home/servizi/primimesi/gallery/edoardo/foto15.jpg', alt: 'Servizio primi mesi Edoardo' },
+            { src: '/assets/home/servizi/primimesi/gallery/edoardo/foto16.jpg', alt: 'Servizio primi mesi Edoardo' },
+            { src: '/assets/home/servizi/primimesi/gallery/edoardo/foto17.jpg', alt: 'Servizio primi mesi Edoardo' },
+            { src: '/assets/home/servizi/primimesi/gallery/edoardo/foto18.jpg', alt: 'Servizio primi mesi Edoardo' }
           ]
         },
         { 
-          src: '/assets/home/servizi/primimesi/foto3.jpg', 
-          alt: 'Momenti del bambino', 
-          nome: 'Matteo',
+          src: '/assets/home/servizi/primimesi/gallery/amelie/foto11.jpg', 
+          alt: 'Servizio primi mesi Amelie', 
+          nome: 'Amelie',
           detailedPhotos: [
-            { src: '/assets/home/servizi/primimesi/foto3.jpg', alt: 'Matteo - Momenti' },
-            { src: '/assets/home/servizi/primimesi/foto3b.jpg', alt: 'Matteo - Primo piano' },
-            { src: '/assets/home/servizi/primimesi/foto3c.jpg', alt: 'Matteo - Gioco' },
-            { src: '/assets/home/servizi/primimesi/foto3d.jpg', alt: 'Matteo - Con papà' },
-            { src: '/assets/home/servizi/primimesi/foto3e.jpg', alt: 'Matteo - Risate' }
+            { src: '/assets/home/servizi/primimesi/gallery/amelie/foto1.jpg', alt: 'Servizio primi mesi Amelie' },
+            { src: '/assets/home/servizi/primimesi/gallery/amelie/foto2.jpg', alt: 'Servizio primi mesi Amelie' },
+            { src: '/assets/home/servizi/primimesi/gallery/amelie/foto3.jpg', alt: 'Servizio primi mesi Amelie' },
+            { src: '/assets/home/servizi/primimesi/gallery/amelie/foto4.jpg', alt: 'Servizio primi mesi Amelie' },
+            { src: '/assets/home/servizi/primimesi/gallery/amelie/foto5.jpg', alt: 'Servizio primi mesi Amelie' },
+            { src: '/assets/home/servizi/primimesi/gallery/amelie/foto6.jpg', alt: 'Servizio primi mesi Amelie' },
+            { src: '/assets/home/servizi/primimesi/gallery/amelie/foto7.jpg', alt: 'Servizio primi mesi Amelie' },
+            { src: '/assets/home/servizi/primimesi/gallery/amelie/foto8.jpg', alt: 'Servizio primii mesi Amelie' },
+            { src: '/assets/home/servizi/primimesi/gallery/amelie/foto9.jpg', alt: 'Servizio primi mesi Amelie' },
+            { src: '/assets/home/servizi/primimesi/gallery/amelie/foto10.jpg', alt: 'Servizio primi mesi Amelie' },
+            { src: '/assets/home/servizi/primimesi/gallery/amelie/foto11.jpg', alt: 'Servizio primi mesi Amelie' },
+            { src: '/assets/home/servizi/primimesi/gallery/amelie/foto12.jpg', alt: 'Servizio primi mesi Amelie' },
+            { src: '/assets/home/servizi/primimesi/gallery/amelie/foto13.jpg', alt: 'Servizio primi mesi Amelie' },
+            { src: '/assets/home/servizi/primimesi/gallery/amelie/foto14.jpg', alt: 'Servizio primi mesi Amelie' },
+            { src: '/assets/home/servizi/primimesi/gallery/amelie/foto15.jpg', alt: 'Servizio primi mesi Amelie' },
           ]
         },
         { 
-          src: '/assets/home/servizi/primimesi/foto4.jpg', 
-          alt: 'Famiglia con bambino', 
-          nome: 'Chiara',
+          src: '/assets/home/servizi/primimesi/gallery/damiano/foto11.jpg', 
+          alt: 'Servizio primi mesi Damiano', 
+          nome: 'Damiano',
           detailedPhotos: [
-            { src: '/assets/home/servizi/primimesi/foto4.jpg', alt: 'Chiara - Famiglia' },
-            { src: '/assets/home/servizi/primimesi/foto4b.jpg', alt: 'Chiara - Primo piano' },
-            { src: '/assets/home/servizi/primimesi/foto4c.jpg', alt: 'Chiara - Con fratello' },
-            { src: '/assets/home/servizi/primimesi/foto4d.jpg', alt: 'Chiara - Dettagli' },
-            { src: '/assets/home/servizi/primimesi/foto4e.jpg', alt: 'Chiara - Espressioni' }
+            { src: '/assets/home/servizi/primimesi/gallery/damiano/foto1.jpg', alt: 'Servizio primi mesi Damiano' },
+            { src: '/assets/home/servizi/primimesi/gallery/damiano/foto2.jpg', alt: 'Servizio primi mesi Damiano' },
+            { src: '/assets/home/servizi/primimesi/gallery/damiano/foto3.jpg', alt: 'Servizio primi mesi Damiano' },
+            { src: '/assets/home/servizi/primimesi/gallery/damiano/foto4.jpg', alt: 'Servizio primi mesi Damiano' },
+            { src: '/assets/home/servizi/primimesi/gallery/damiano/foto5.jpg', alt: 'Servizio primi mesi Damiano' },
+            { src: '/assets/home/servizi/primimesi/gallery/damiano/foto6.jpg', alt: 'Servizio primi mesi Damiano' },
+            { src: '/assets/home/servizi/primimesi/gallery/damiano/foto7.jpg', alt: 'Servizio primi mesi Damiano' },
+            { src: '/assets/home/servizi/primimesi/gallery/damiano/foto8.jpg', alt: 'Servizio primi mesi Damiano' },
+            { src: '/assets/home/servizi/primimesi/gallery/damiano/foto9.jpg', alt: 'Servizio primi mesi Damiano' },
+            { src: '/assets/home/servizi/primimesi/gallery/damiano/foto10.jpg', alt: 'Servizio primi mesi Damiano' },
+            { src: '/assets/home/servizi/primimesi/gallery/damiano/foto11.jpg', alt: 'Servizio primi mesi Damiano' },
+            { src: '/assets/home/servizi/primimesi/gallery/damiano/foto12.jpg', alt: 'Servizio primi mesi Damiano' },
+            { src: '/assets/home/servizi/primimesi/gallery/damiano/foto13.jpg', alt: 'Servizio primi mesi Damiano' },
+            { src: '/assets/home/servizi/primimesi/gallery/damiano/foto14.jpg', alt: 'Servizio primi mesi Damiano' },
+            { src: '/assets/home/servizi/primimesi/gallery/damiano/foto15.jpg', alt: 'Servizio primi mesi Damiano' }
           ]
         }
       ]
@@ -205,81 +238,111 @@ export class GalleryServiziService {
       nome: 'Bebè',
       photos: [
         { 
-          src: '/assets/home/servizi/bebe/foto4.jpg', 
-          alt: 'Bebè giocando', 
-          nome: 'Giulia',
+          src: '/assets/home/servizi/bebe/gallery/beatrice/foto13.jpg', 
+          alt: 'Servizio Bebè Beatrice', 
+          nome: 'Beatrice',
           detailedPhotos: [
-            { src: '/assets/home/servizi/bebe/foto2.jpg', alt: 'Giulia - Primo piano' },
-            { src: '/assets/home/servizi/bebe/foto3.jpg', alt: 'Giulia - Gioco' },
-            { src: '/assets/home/servizi/bebe/foto4.jpg', alt: 'Giulia - Sorriso' },
-            { src: '/assets/home/servizi/bebe/foto4b.jpg', alt: 'Giulia - Dettagli' },
-            { src: '/assets/home/servizi/bebe/foto4c.jpg', alt: 'Giulia - Momenti' }
+            { src: '/assets/home/servizi/bebe/gallery/beatrice/foto1.jpg', alt: 'Servizio Bebè Beatrice' },
+            { src: '/assets/home/servizi/bebe/gallery/beatrice/foto2.jpg', alt: 'Servizio Bebè Beatrice' },
+            { src: '/assets/home/servizi/bebe/gallery/beatrice/foto3.jpg', alt: 'Servizio Bebè Beatrice' },
+            { src: '/assets/home/servizi/bebe/gallery/beatrice/foto4.jpg', alt: 'Servizio Bebè Beatrice' },
+            { src: '/assets/home/servizi/bebe/gallery/beatrice/foto5.jpg', alt: 'Servizio Bebè Beatrice' },
+            { src: '/assets/home/servizi/bebe/gallery/beatrice/foto6.jpg', alt: 'Servizio Bebè Beatrice' },
+            { src: '/assets/home/servizi/bebe/gallery/beatrice/foto7.jpg', alt: 'Servizio Bebè Beatrice' },
+            { src: '/assets/home/servizi/bebe/gallery/beatrice/foto8.jpg', alt: 'Servizio Bebè Beatrice' },
+            { src: '/assets/home/servizi/bebe/gallery/beatrice/foto9.jpg', alt: 'Servizio Bebè Beatrice' },
+            { src: '/assets/home/servizi/bebe/gallery/beatrice/foto10.jpg', alt: 'Servizio Bebè Beatrice' },
+            { src: '/assets/home/servizi/bebe/gallery/beatrice/foto11.jpg', alt: 'Servizio Bebè Beatrice' },
+            { src: '/assets/home/servizi/bebe/gallery/beatrice/foto12.jpg', alt: 'Servizio Bebè Beatrice' },
+            { src: '/assets/home/servizi/bebe/gallery/beatrice/foto13.jpg', alt: 'Servizio Bebè Beatrice' },
+            { src: '/assets/home/servizi/bebe/gallery/beatrice/foto14.jpg', alt: 'Servizio Bebè Beatrice' },
+            { src: '/assets/home/servizi/bebe/gallery/beatrice/foto15.jpg', alt: 'Servizio Bebè Beatrice' },
+            { src: '/assets/home/servizi/bebe/gallery/beatrice/foto16.jpg', alt: 'Servizio Bebè Beatrice' },
+            { src: '/assets/home/servizi/bebe/gallery/beatrice/foto17.jpg', alt: 'Servizio Bebè Beatrice' },
+            { src: '/assets/home/servizi/bebe/gallery/beatrice/foto18.jpg', alt: 'Servizio Bebè Beatrice' }
           ]
         },
-        { 
-          src: '/assets/home/servizi/bebe/foto5.jpg', 
-          alt: 'Bebè con genitore', 
-          nome: 'Federico',
-          detailedPhotos: [
-            { src: '/assets/home/servizi/bebe/foto5.jpg', alt: 'Federico - Con genitore' },
-            { src: '/assets/home/servizi/bebe/foto5b.jpg', alt: 'Federico - Primo piano' },
-            { src: '/assets/home/servizi/bebe/foto5c.jpg', alt: 'Federico - Abbracci' },
-            { src: '/assets/home/servizi/bebe/foto5d.jpg', alt: 'Federico - Gioco' },
-            { src: '/assets/home/servizi/bebe/foto5e.jpg', alt: 'Federico - Dettagli' }
-          ]
-        },
-        { 
-          src: '/assets/home/servizi/bebe/foto6.jpg', 
-          alt: 'Momento della famiglia', 
-          nome: 'Sara',
-          detailedPhotos: [
-            { src: '/assets/home/servizi/bebe/foto6.jpg', alt: 'Sara - Famiglia' },
-            { src: '/assets/home/servizi/bebe/foto6b.jpg', alt: 'Sara - Con fratelli' },
-            { src: '/assets/home/servizi/bebe/foto6c.jpg', alt: 'Sara - Primo piano' },
-            { src: '/assets/home/servizi/bebe/foto6d.jpg', alt: 'Sara - Momenti' },
-            { src: '/assets/home/servizi/bebe/foto6e.jpg', alt: 'Sara - Espressioni' }
-          ]
-        }
       ]
-    },
+      },
     'smash-cake': {
       banner: '/assets/home/servizi/smash-cake/copertina.jpg',
       nome: 'Smash Cake',
       photos: [
         { 
-          src: '/assets/home/servizi/smash-cake/foto2.jpg', 
-          alt: 'Bambino con torta', 
-          nome: 'Aurora',
+          src: '/assets/home/servizi/smash-cake/gallery/azzurra/foto14.jpg', 
+          alt: 'Servizio Smash Cake Azzurra', 
+          nome: 'Azzurra',
           detailedPhotos: [
-            { src: '/assets/home/servizi/smash-cake/foto2.jpg', alt: 'Aurora - Con torta' },
-            { src: '/assets/home/servizi/smash-cake/foto2b.jpg', alt: 'Aurora - Primo piano' },
-            { src: '/assets/home/servizi/smash-cake/foto2c.jpg', alt: 'Aurora - Mangia torta' },
-            { src: '/assets/home/servizi/smash-cake/foto2d.jpg', alt: 'Aurora - Sporco' },
-            { src: '/assets/home/servizi/smash-cake/foto2e.jpg', alt: 'Aurora - Felice' }
+            { src: '/assets/home/servizi/smash-cake/gallery/azzurra/foto1.jpg', alt: 'Servizio smash cake Azzurra' },
+            { src: '/assets/home/servizi/smash-cake/gallery/azzurra/foto2.jpg', alt: 'Servizio smash cake Azzurra' },
+            { src: '/assets/home/servizi/smash-cake/gallery/azzurra/foto3.jpg', alt: 'Servizio smash cake Azzurra' },
+            { src: '/assets/home/servizi/smash-cake/gallery/azzurra/foto4.jpg', alt: 'Servizio smash cake Azzurra' },
+            { src: '/assets/home/servizi/smash-cake/gallery/azzurra/foto5.jpg', alt: 'Servizio smash cake Azzurra' },
+            { src: '/assets/home/servizi/smash-cake/gallery/azzurra/foto6.jpg', alt: 'Servizio smash cake Azzurra' },
+            { src: '/assets/home/servizi/smash-cake/gallery/azzurra/foto7.jpg', alt: 'Servizio smash cake Azzurra' },
+            { src: '/assets/home/servizi/smash-cake/gallery/azzurra/foto8.jpg', alt: 'Servizio smash cake Azzurra' },
+            { src: '/assets/home/servizi/smash-cake/gallery/azzurra/foto9.jpg', alt: 'Servizio smash cake Azzurra' },
+            { src: '/assets/home/servizi/smash-cake/gallery/azzurra/foto10.jpg', alt: 'Servizio smash cake Azzurra' },
+            { src: '/assets/home/servizi/smash-cake/gallery/azzurra/foto11.jpg', alt: 'Servizio smash cake Azzurra' },
+            { src: '/assets/home/servizi/smash-cake/gallery/azzurra/foto12.jpg', alt: 'Servizio smash cake Azzurra' },
+            { src: '/assets/home/servizi/smash-cake/gallery/azzurra/foto13.jpg', alt: 'Servizio smash cake Azzurra' },
+            { src: '/assets/home/servizi/smash-cake/gallery/azzurra/foto14.jpg', alt: 'Servizio smash cake Azzurra' },
+            { src: '/assets/home/servizi/smash-cake/gallery/azzurra/foto15.jpg', alt: 'Servizio smash cake Azzurra' },
+            { src: '/assets/home/servizi/smash-cake/gallery/azzurra/foto16.jpg', alt: 'Servizio smash cake Azzurra' },
+            { src: '/assets/home/servizi/smash-cake/gallery/azzurra/foto17.jpg', alt: 'Servizio smash cake Azzurra' },
+            { src: '/assets/home/servizi/smash-cake/gallery/azzurra/foto18.jpg', alt: 'Servizio smash cake Azzurra' },
+            { src: '/assets/home/servizi/smash-cake/gallery/azzurra/foto19.jpg', alt: 'Servizio smash cake Azzurra' },
+            { src: '/assets/home/servizi/smash-cake/gallery/azzurra/foto20.jpg', alt: 'Servizio smash cake Azzurra' },
+            { src: '/assets/home/servizi/smash-cake/gallery/azzurra/foto21.jpg', alt: 'Servizio smash cake Azzurra' }
+
+
+        
           ]
         },
         { 
-          src: '/assets/home/servizi/smash-cake/foto3.jpg', 
-          alt: 'Momento di gioco', 
-          nome: 'Leonardo',
+          src: '/assets/home/servizi/smash-cake/gallery/lorenzo/foto8.jpg', 
+          alt: 'Servizio Smash Cake Lorenzo', 
+          nome: 'Lorenzo',
           detailedPhotos: [
-            { src: '/assets/home/servizi/smash-cake/foto3.jpg', alt: 'Leonardo - Gioco' },
-            { src: '/assets/home/servizi/smash-cake/foto3b.jpg', alt: 'Leonardo - Primo piano' },
-            { src: '/assets/home/servizi/smash-cake/foto3c.jpg', alt: 'Leonardo - Risate' },
-            { src: '/assets/home/servizi/smash-cake/foto3d.jpg', alt: 'Leonardo - Con torta' },
-            { src: '/assets/home/servizi/smash-cake/foto3e.jpg', alt: 'Leonardo - Sporco' }
+            { src: '/assets/home/servizi/smash-cake/gallery/lorenzo/foto1.jpg', alt: 'Servizio smash cake Lorenzo' },
+            { src: '/assets/home/servizi/smash-cake/gallery/lorenzo/foto2.jpg', alt: 'Servizio smash cake Lorenzo' },
+            { src: '/assets/home/servizi/smash-cake/gallery/lorenzo/foto3.jpg', alt: 'Servizio smash cake Lorenzo' },
+            { src: '/assets/home/servizi/smash-cake/gallery/lorenzo/foto4.jpg', alt: 'Servizio smash cake Lorenzo' },
+            { src: '/assets/home/servizi/smash-cake/gallery/lorenzo/foto5.jpg', alt: 'Servizio smash cake Lorenzo' },
+            { src: '/assets/home/servizi/smash-cake/gallery/lorenzo/foto6.jpg', alt: 'Servizio smash cake Lorenzo' },
+            { src: '/assets/home/servizi/smash-cake/gallery/lorenzo/foto7.jpg', alt: 'Servizio smash cake Lorenzo' },
+            { src: '/assets/home/servizi/smash-cake/gallery/lorenzo/foto8.jpg', alt: 'Servizio smash cake Lorenzo' },
+            { src: '/assets/home/servizi/smash-cake/gallery/lorenzo/foto9.jpg', alt: 'Servizio smash cake Lorenzo' },
+            { src: '/assets/home/servizi/smash-cake/gallery/lorenzo/foto10.jpg', alt: 'Servizio smash cake Lorenzo' },
+            { src: '/assets/home/servizi/smash-cake/gallery/lorenzo/foto11.jpg', alt: 'Servizio smash cake Lorenzo' },
+            { src: '/assets/home/servizi/smash-cake/gallery/lorenzo/foto12.jpg', alt: 'Servizio smash cake Lorenzo' },
+            { src: '/assets/home/servizi/smash-cake/gallery/lorenzo/foto13.jpg', alt: 'Servizio smash cake Lorenzo' },
+            { src: '/assets/home/servizi/smash-cake/gallery/lorenzo/foto14.jpg', alt: 'Servizio smash cake Lorenzo' },
+            { src: '/assets/home/servizi/smash-cake/gallery/lorenzo/foto15.jpg', alt: 'Servizio smash cake Lorenzo' },
+            { src: '/assets/home/servizi/smash-cake/gallery/lorenzo/foto16.jpg', alt: 'Servizio smash cake Lorenzo' },
+            { src: '/assets/home/servizi/smash-cake/gallery/lorenzo/foto17.jpg', alt: 'Servizio smash cake Lorenzo' },
+
           ]
         },
         { 
-          src: '/assets/home/servizi/smash-cake/foto4.jpg', 
-          alt: 'Bambino sporco di torta', 
-          nome: 'Valentina',
+          src: '/assets/home/servizi/smash-cake/gallery/matilde/foto11.jpg', 
+          alt: 'Servizio smash cake Matilde', 
+          nome: 'Matilde',
           detailedPhotos: [
-            { src: '/assets/home/servizi/smash-cake/foto4.jpg', alt: 'Valentina - Sporco' },
-            { src: '/assets/home/servizi/smash-cake/foto4b.jpg', alt: 'Valentina - Primo piano' },
-            { src: '/assets/home/servizi/smash-cake/foto4c.jpg', alt: 'Valentina - Felice' },
-            { src: '/assets/home/servizi/smash-cake/foto4d.jpg', alt: 'Valentina - Dettagli' },
-            { src: '/assets/home/servizi/smash-cake/foto4e.jpg', alt: 'Valentina - Con torta' }
+            { src: '/assets/home/servizi/smash-cake/gallery/matilde/foto1.jpg', alt: 'Servizio smash cake Matilde' },
+            { src: '/assets/home/servizi/smash-cake/gallery/matilde/foto2.jpg', alt: 'Servizio smash cake Matilde' },
+            { src: '/assets/home/servizi/smash-cake/gallery/matilde/foto3.jpg', alt: 'Servizio smash cake Matilde' },
+            { src: '/assets/home/servizi/smash-cake/gallery/matilde/foto4.jpg', alt: 'Servizio smash cake Matilde' },
+            { src: '/assets/home/servizi/smash-cake/gallery/matilde/foto5.jpg', alt: 'Servizio smash cake Matilde' },
+            { src: '/assets/home/servizi/smash-cake/gallery/matilde/foto6.jpg', alt: 'Servizio smash cake Matilde' },
+            { src: '/assets/home/servizi/smash-cake/gallery/matilde/foto7.jpg', alt: 'Servizio smash cake Matilde' },
+            { src: '/assets/home/servizi/smash-cake/gallery/matilde/foto8.jpg', alt: 'Servizio smash cake Matilde' },
+            { src: '/assets/home/servizi/smash-cake/gallery/matilde/foto9.jpg', alt: 'Servizio smash cake Matilde' },
+            { src: '/assets/home/servizi/smash-cake/gallery/matilde/foto10.jpg', alt: 'Servizio smash cake Matilde' },
+            { src: '/assets/home/servizi/smash-cake/gallery/matilde/foto11.jpg', alt: 'Servizio smash cake Matilde' },
+            { src: '/assets/home/servizi/smash-cake/gallery/matilde/foto12.jpg', alt: 'Servizio smash cake Matilde' },
+            { src: '/assets/home/servizi/smash-cake/gallery/matilde/foto13.jpg', alt: 'Servizio smash cake Matilde' }
+
           ]
         }
       ]
@@ -289,44 +352,78 @@ export class GalleryServiziService {
       nome: 'Famiglia',
       photos: [
         { 
-          src: '/assets/home/servizi/famiglia/foto4.jpg', 
-          alt: 'Famiglia insieme', 
-          nome: 'Thomas',
+          src: '/assets/home/servizi/famiglia/gallery/antonio/foto14.jpg', 
+          alt: 'Serviuzio famiglia Antonio', 
+          nome: 'Antonio',
           detailedPhotos: [
-            { src: '/assets/home/servizi/famiglia/foto2.jpg', alt: 'Thomas - Famiglia in esterna' },
-            { src: '/assets/home/servizi/famiglia/foto3.jpg', alt: 'Thomas - Momenti gioco' },
-            { src: '/assets/home/servizi/famiglia/foto4.jpg', alt: 'Thomas - Famiglia insieme' },
-            { src: '/assets/home/servizi/famiglia/foto4b.jpg', alt: 'Thomas - Primo piano' },
-            { src: '/assets/home/servizi/famiglia/foto4c.jpg', alt: 'Thomas - Dettagli' }
+            { src: '/assets/home/servizi/famiglia/gallery/antonio/foto1.jpg', alt: 'Servizio famiglia Antonio' },
+            { src: '/assets/home/servizi/famiglia/gallery/antonio/foto2.jpg', alt: 'Servizio famiglia Antonio' },
+            { src: '/assets/home/servizi/famiglia/gallery/antonio/foto3.jpg', alt: 'Servizio famiglia Antonio' },
+            { src: '/assets/home/servizi/famiglia/gallery/antonio/foto4.jpg', alt: 'Servizio famiglia Antonio' },
+            { src: '/assets/home/servizi/famiglia/gallery/antonio/foto5.jpg', alt: 'Servizio famiglia Antonio' },
+            { src: '/assets/home/servizi/famiglia/gallery/antonio/foto6.jpg', alt: 'Servizio famiglia Antonio' },
+            { src: '/assets/home/servizi/famiglia/gallery/antonio/foto7.jpg', alt: 'Servizio famiglia Antonio' },
+            { src: '/assets/home/servizi/famiglia/gallery/antonio/foto8.jpg', alt: 'Servizio famiglia Antonio' },
+            { src: '/assets/home/servizi/famiglia/gallery/antonio/foto9.jpg', alt: 'Servizio famiglia Antonio' },
+            { src: '/assets/home/servizi/famiglia/gallery/antonio/foto10.jpg', alt: 'Servizio famiglia Antonio' },
+            { src: '/assets/home/servizi/famiglia/gallery/antonio/foto11.jpg', alt: 'Servizio famiglia Antonio' },
+            { src: '/assets/home/servizi/famiglia/gallery/antonio/foto12.jpg', alt: 'Servizio famiglia Antonio' },
+            { src: '/assets/home/servizi/famiglia/gallery/antonio/foto13.jpg', alt: 'Servizio famiglia Antonio' },
+            { src: '/assets/home/servizi/famiglia/gallery/antonio/foto14.jpg', alt: 'Servizio famiglia Antonio' },
+            { src: '/assets/home/servizi/famiglia/gallery/antonio/foto15.jpg', alt: 'Servizio famiglia Antonio' }
           ]
         },
         { 
-          src: '/assets/home/servizi/famiglia/foto5.jpg', 
-          alt: 'Momento familiare', 
-          nome: 'Riccardo',
+          src: '/assets/home/servizi/famiglia/gallery/elisa/foto14.jpg', 
+          alt: 'Servizio famiglia Elisa', 
+          nome: 'Elisa',
           detailedPhotos: [
-            { src: '/assets/home/servizi/famiglia/foto5.jpg', alt: 'Riccardo - Momento familiare' },
-            { src: '/assets/home/servizi/famiglia/foto5b.jpg', alt: 'Riccardo - Primo piano' },
-            { src: '/assets/home/servizi/famiglia/foto5c.jpg', alt: 'Riccardo - Con fratelli' },
-            { src: '/assets/home/servizi/famiglia/foto5d.jpg', alt: 'Riccardo - Gioco' },
-            { src: '/assets/home/servizi/famiglia/foto5e.jpg', alt: 'Riccardo - Espressioni' }
+            { src: '/assets/home/servizi/famiglia/gallery/elisa/foto1.jpg', alt: 'Servizio famiglia Elisa' },
+            { src: '/assets/home/servizi/famiglia/gallery/elisa/foto2.jpg', alt: 'Servizio famiglia Elisa' },
+            { src: '/assets/home/servizi/famiglia/gallery/elisa/foto3.jpg', alt: 'Servizio famiglia Elisa' },
+            { src: '/assets/home/servizi/famiglia/gallery/elisa/foto4.jpg', alt: 'Servizio famiglia Elisa' },
+            { src: '/assets/home/servizi/famiglia/gallery/elisa/foto5.jpg', alt: 'Servizio famiglia Elisa' },
+            { src: '/assets/home/servizi/famiglia/gallery/elisa/foto6.jpg', alt: 'Servizio famiglia Elisa' },
+            { src: '/assets/home/servizi/famiglia/gallery/elisa/foto7.jpg', alt: 'Servizio famiglia Elisa' },
+            { src: '/assets/home/servizi/famiglia/gallery/elisa/foto8.jpg', alt: 'Servizio famiglia Elisa' },
+            { src: '/assets/home/servizi/famiglia/gallery/elisa/foto9.jpg', alt: 'Servizio famiglia Elisa' },
+            { src: '/assets/home/servizi/famiglia/gallery/elisa/foto10.jpg', alt: 'Servizio famiglia Elisa' },
+            { src: '/assets/home/servizi/famiglia/gallery/elisa/foto11.jpg', alt: 'Servizio famiglia Elisa' },
+            { src: '/assets/home/servizi/famiglia/gallery/elisa/foto12.jpg', alt: 'Servizio famiglia Elisa' },
+            { src: '/assets/home/servizi/famiglia/gallery/elisa/foto13.jpg', alt: 'Servizio famiglia Elisa' },
+            { src: '/assets/home/servizi/famiglia/gallery/elisa/foto14.jpg', alt: 'Servizio famiglia Elisa' },
+            { src: '/assets/home/servizi/famiglia/gallery/elisa/foto15.jpg', alt: 'Servizio famiglia Elisa' },
+            { src: '/assets/home/servizi/famiglia/gallery/elisa/foto16.jpg', alt: 'Servizio famiglia Elisa' },
+            { src: '/assets/home/servizi/famiglia/gallery/elisa/foto17.jpg', alt: 'Servizio famiglia Elisa' },
+            { src: '/assets/home/servizi/famiglia/gallery/elisa/foto18.jpg', alt: 'Servizio famiglia Elisa' },
+            { src: '/assets/home/servizi/famiglia/gallery/elisa/foto19.jpg', alt: 'Servizio famiglia Elisa' },
+            { src: '/assets/home/servizi/famiglia/gallery/elisa/foto20.jpg', alt: 'Servizio famiglia Elisa' },
+            { src: '/assets/home/servizi/famiglia/gallery/elisa/foto21.jpg', alt: 'Servizio famiglia Elisa' }
+        
           ]
         },
         { 
-          src: '/assets/home/servizi/famiglia/foto6.jpg', 
-          alt: 'Abbraccio della famiglia', 
-          nome: 'Alessio',
+          src: '/assets/home/servizi/famiglia/gallery/samuel/foto7.jpg', 
+          alt: 'Servizio famiglia Samuel', 
+          nome: 'Samuel',
           detailedPhotos: [
-            { src: '/assets/home/servizi/famiglia/foto6.jpg', alt: 'Alessio - Abbracci' },
-            { src: '/assets/home/servizi/famiglia/foto6b.jpg', alt: 'Alessio - Primo piano' },
-            { src: '/assets/home/servizi/famiglia/foto6c.jpg', alt: 'Alessio - Con genitori' },
-            { src: '/assets/home/servizi/famiglia/foto6d.jpg', alt: 'Alessio - Momenti' },
-            { src: '/assets/home/servizi/famiglia/foto6e.jpg', alt: 'Alessio - Dettagli' }
+            { src: '/assets/home/servizi/famiglia/gallery/samuel/foto1.jpg', alt: 'Servizio famiglia Samuel' },
+            { src: '/assets/home/servizi/famiglia/gallery/samuel/foto2.jpg', alt: 'Servizio famiglia Samuel' },
+            { src: '/assets/home/servizi/famiglia/gallery/samuel/foto3.jpg', alt: 'Servizio famiglia Samuel' },
+            { src: '/assets/home/servizi/famiglia/gallery/samuel/foto4.jpg', alt: 'Servizio famiglia Samuel' },
+            { src: '/assets/home/servizi/famiglia/gallery/samuel/foto5.jpg', alt: 'Servizio famiglia Samuel' },
+            { src: '/assets/home/servizi/famiglia/gallery/samuel/foto6.jpg', alt: 'Servizio famiglia Samuel' },
+            { src: '/assets/home/servizi/famiglia/gallery/samuel/foto7.jpg', alt: 'Servizio famiglia Samuel' },
+            { src: '/assets/home/servizi/famiglia/gallery/samuel/foto8.jpg', alt: 'Servizio famiglia Samuel' },
+            { src: '/assets/home/servizi/famiglia/gallery/samuel/foto9.jpg', alt: 'Servizio famiglia Samuel' },
+            { src: '/assets/home/servizi/famiglia/gallery/samuel/foto10.jpg', alt: 'Servizio famiglia Samuel' },
+            { src: '/assets/home/servizi/famiglia/gallery/samuel/foto11.jpg', alt: 'Servizio famiglia Samuel' }
+        
           ]
         }
       ]
     },
-    'ritratto': {
+    /* 'ritratto': {
       banner: '/assets/home/servizi/ritratto/copertina.jpg',
       nome: 'Ritratto',
       photos: [
@@ -367,91 +464,39 @@ export class GalleryServiziService {
           ]
         }
       ]
-    },
+    }, */
     'in-esterna': {
       banner: '/assets/home/servizi/esterna/copertina.jpg',
       nome: 'Servizi in Esterna',
       photos: [
         { 
-          src: '/assets/home/servizi/esterna/foto2.jpg', 
-          alt: 'Sessione esterna paesaggio', 
-          nome: 'Giovanni',
+          src: '/assets/home/servizi/esterna/gallery/matilde&tommaso/foto10.jpg', 
+          alt: 'Servizio in esterna Matilde & Tommaso', 
+          nome: 'Matilde & Tommaso',
           detailedPhotos: [
-            { src: '/assets/home/servizi/esterna/foto2.jpg', alt: 'Giovanni - Paesaggio' },
-            { src: '/assets/home/servizi/esterna/foto2b.jpg', alt: 'Giovanni - Natura' },
-            { src: '/assets/home/servizi/esterna/foto2c.jpg', alt: 'Giovanni - Outdoor' },
-            { src: '/assets/home/servizi/esterna/foto2d.jpg', alt: 'Giovanni - Luce naturale' },
-            { src: '/assets/home/servizi/esterna/foto2e.jpg', alt: 'Giovanni - Dettagli' }
+          { src: '/assets/home/servizi/esterna/gallery/matilde&tommaso/foto1.jpg', alt: 'Servizio in esterna Matilde & Tommaso' },
+          { src: '/assets/home/servizi/esterna/gallery/matilde&tommaso/foto2.jpg', alt: 'Servizio in esterna Matilde & Tommaso' },
+          { src: '/assets/home/servizi/esterna/gallery/matilde&tommaso/foto3.jpg', alt: 'Servizio in esterna Matilde & Tommaso' },
+          { src: '/assets/home/servizi/esterna/gallery/matilde&tommaso/foto4.jpg', alt: 'Servizio in esterna Matilde & Tommaso' },
+          { src: '/assets/home/servizi/esterna/gallery/matilde&tommaso/foto5.jpg', alt: 'Servizio in esterna Matilde & Tommaso' },
+          { src: '/assets/home/servizi/esterna/gallery/matilde&tommaso/foto6.jpg', alt: 'Servizio in esterna Matilde & Tommaso' },
+          { src: '/assets/home/servizi/esterna/gallery/matilde&tommaso/foto7.jpg', alt: 'Servizio in esterna Matilde & Tommaso' },
+          { src: '/assets/home/servizi/esterna/gallery/matilde&tommaso/foto8.jpg', alt: 'Servizio in esterna Matilde & Tommaso' },
+          { src: '/assets/home/servizi/esterna/gallery/matilde&tommaso/foto9.jpg', alt: 'Servizio in esterna Matilde & Tommaso' },
+          { src: '/assets/home/servizi/esterna/gallery/matilde&tommaso/foto10.jpg', alt: 'Servizio in esterna Matilde & Tommaso' },
+          { src: '/assets/home/servizi/esterna/gallery/matilde&tommaso/foto11.jpg', alt: 'Servizio in esterna Matilde & Tommaso' },
+          { src: '/assets/home/servizi/esterna/gallery/matilde&tommaso/foto12.jpg', alt: 'Servizio in esterna Matilde & Tommaso' },
+          { src: '/assets/home/servizi/esterna/gallery/matilde&tommaso/foto13.jpg', alt: 'Servizio in esterna Matilde & Tommaso' },
+          { src: '/assets/home/servizi/esterna/gallery/matilde&tommaso/foto14.jpg', alt: 'Servizio in esterna Matilde & Tommaso' },
+          { src: '/assets/home/servizi/esterna/gallery/matilde&tommaso/foto15.jpg', alt: 'Servizio in esterna Matilde & Tommaso' },
+          { src: '/assets/home/servizi/esterna/gallery/matilde&tommaso/foto16.jpg', alt: 'Servizio in esterna Matilde & Tommaso' },
+          { src: '/assets/home/servizi/esterna/gallery/matilde&tommaso/foto17.jpg', alt: 'Servizio in esterna Matilde & Tommaso' },
+          { src: '/assets/home/servizi/esterna/gallery/matilde&tommaso/foto18.jpg', alt: 'Servizio in esterna Matilde & Tommaso' },
+          { src: '/assets/home/servizi/esterna/gallery/matilde&tommaso/foto19.jpg', alt: 'Servizio in esterna Matilde & Tommaso' }
           ]
         },
-        { 
-          src: '/assets/home/servizi/esterna/foto3.jpg', 
-          alt: 'Sessione esterna natura', 
-          nome: 'Lorenzo',
-          detailedPhotos: [
-            { src: '/assets/home/servizi/esterna/foto3.jpg', alt: 'Lorenzo - Natura' },
-            { src: '/assets/home/servizi/esterna/foto3b.jpg', alt: 'Lorenzo - Verde' },
-            { src: '/assets/home/servizi/esterna/foto3c.jpg', alt: 'Lorenzo - Luce' },
-            { src: '/assets/home/servizi/esterna/foto3d.jpg', alt: 'Lorenzo - Primo piano' },
-            { src: '/assets/home/servizi/esterna/foto3e.jpg', alt: 'Lorenzo - Momenti' }
-          ]
-        },
-        { 
-          src: '/assets/home/servizi/esterna/foto4.jpg', 
-          alt: 'Sessione esterna tramonto', 
-          nome: 'Fabio',
-          detailedPhotos: [
-            { src: '/assets/home/servizi/esterna/foto4.jpg', alt: 'Fabio - Tramonto' },
-            { src: '/assets/home/servizi/esterna/foto4b.jpg', alt: 'Fabio - Esterno' },
-            { src: '/assets/home/servizi/esterna/foto4c.jpg', alt: 'Fabio - Natura' },
-            { src: '/assets/home/servizi/esterna/foto4d.jpg', alt: 'Fabio - Luce dorata' },
-            { src: '/assets/home/servizi/esterna/foto4e.jpg', alt: 'Fabio - Istantanea' }
-          ]
-        }
       ]
     },
-    'mini-sessioni': {
-      banner: '/assets/home/servizi/mini/copertina.jpg',
-      nome: 'Mini Sessioni',
-      photos: [
-        { 
-          src: '/assets/home/servizi/mini/foto4.jpg', 
-          alt: 'Mini sessione momento 1', 
-          nome: 'Simone',
-          detailedPhotos: [
-            { src: '/assets/home/servizi/mini/foto4.jpg', alt: 'Simone - Momento 1' },
-            { src: '/assets/home/servizi/mini/foto4b.jpg', alt: 'Simone - Primo piano' },
-            { src: '/assets/home/servizi/mini/foto4c.jpg', alt: 'Simone - Gioco' },
-            { src: '/assets/home/servizi/mini/foto4d.jpg', alt: 'Simone - Momenti' },
-            { src: '/assets/home/servizi/mini/foto4e.jpg', alt: 'Simone - Istantanea' }
-          ]
-        },
-        { 
-          src: '/assets/home/servizi/mini/foto5.jpg', 
-          alt: 'Mini sessione momento 2', 
-          nome: 'Gabriele',
-          detailedPhotos: [
-            { src: '/assets/home/servizi/mini/foto5.jpg', alt: 'Gabriele - Momento 2' },
-            { src: '/assets/home/servizi/mini/foto5b.jpg', alt: 'Gabriele - Primo piano' },
-            { src: '/assets/home/servizi/mini/foto5c.jpg', alt: 'Gabriele - Risate' },
-            { src: '/assets/home/servizi/mini/foto5d.jpg', alt: 'Gabriele - Gioco' },
-            { src: '/assets/home/servizi/mini/foto5e.jpg', alt: 'Gabriele - Dettagli' }
-          ]
-        },
-        { 
-          src: '/assets/home/servizi/mini/foto6.jpg', 
-          alt: 'Mini sessione momento 3', 
-          nome: 'Paolo',
-          detailedPhotos: [
-            { src: '/assets/home/servizi/mini/foto6.jpg', alt: 'Paolo - Momento 3' },
-            { src: '/assets/home/servizi/mini/foto6b.jpg', alt: 'Paolo - Primo piano' },
-            { src: '/assets/home/servizi/mini/foto6c.jpg', alt: 'Paolo - Momenti' },
-            { src: '/assets/home/servizi/mini/foto6d.jpg', alt: 'Paolo - Gioco' },
-            { src: '/assets/home/servizi/mini/foto6e.jpg', alt: 'Paolo - Espressioni' }
-          ]
-        }
-      ]
-    }
   };
 
   constructor() { }
