@@ -1,7 +1,7 @@
 <div class="gallery-detail-container">
     <div class="header-container">
         <div class="photo-header" [style.backgroundImage]="'url(' + bannerImage + ')'"></div>
-        <div class="servizi-header">{{ servizioName }}</div>
+        <div class="servizi-header">{{ servizioName }}<span *ngIf="personName"> - {{ personName }}</span></div>
     </div>
 
     <div class="gallery-content">

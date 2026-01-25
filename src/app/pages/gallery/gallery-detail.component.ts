@@ -16,6 +16,7 @@ export class GalleryDetailComponent implements OnInit {
 
   detailPhotos: GalleryPhoto[] = [];
   servizioName: string = '';
+  personName: string = '';
   bannerImage: string = '';
   lightboxOpen: boolean = false;
   private servizio: string = '';
@@ -38,7 +39,9 @@ export class GalleryDetailComponent implements OnInit {
         const photos = this.galleryService.getGalleryPhotos(this.servizio);
         
         if (photos && photos[personIndex] && 'detailedPhotos' in photos[personIndex]) {
-          this.detailPhotos = (photos[personIndex] as any).detailedPhotos || [];
+          const selectedPhoto = photos[personIndex] as any;
+          this.detailPhotos = selectedPhoto.detailedPhotos || [];
+          this.personName = selectedPhoto.nome || '';
         }
       });
     });
