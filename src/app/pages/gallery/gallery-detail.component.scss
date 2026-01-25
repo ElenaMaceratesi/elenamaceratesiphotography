@@ -24,13 +24,22 @@
 .servizi-header {
   font-family: 'Adventures Unlimited', cursive;
   font-weight: normal;
-  font-size: clamp(24px, 8vw, 82px);
+  font-size: clamp(18px, 6vw, 60px);
   position: absolute;
   z-index: 10;
   color: white;
   top: 95%;
   left: 50%;
   transform: translate(-50%, -60%);
+  white-space: nowrap;
+  max-width: 90%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 1rem;
+
+  @media (max-width: 768px) {
+    font-size: clamp(16px, 5vw, 28px);
+  }
 }
 
 .gallery-content {

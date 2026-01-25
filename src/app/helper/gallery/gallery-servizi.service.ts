@@ -96,40 +96,64 @@ export class GalleryServiziService {
       banner: '/assets/home/servizi/newborn/copertina.jpg',
       nome: 'Newborn',
       photos: [
-        { 
-          src: '/assets/home/servizi/newborn/foto2.jpg', 
-          alt: 'Neonato primo piano', 
-          nome: 'Giulia',
+        { src: '/assets/home/servizi/newborn/gallery/silvia/foto9.jpg',
+          alt: 'Servizio newborn Silvia', 
+          nome: 'Silvia',
           detailedPhotos: [
-            { src: '/assets/home/servizi/newborn/foto2.jpg', alt: 'Giulia - Primo piano' },
-            { src: '/assets/home/servizi/newborn/foto2b.jpg', alt: 'Giulia - Dormiente' },
-            { src: '/assets/home/servizi/newborn/foto2c.jpg', alt: 'Giulia - Dettagli mani' },
-            { src: '/assets/home/servizi/newborn/foto2d.jpg', alt: 'Giulia - Con mamma' },
-            { src: '/assets/home/servizi/newborn/foto2e.jpg', alt: 'Giulia - Sorriso' }
+            { src:  '/assets/home/servizi/newborn/gallery/silvia/foto1.jpg', alt: 'Servizio newborn Silvia' },
+            { src: '/assets/home/servizi/newborn/gallery/silvia/foto2.jpg', alt: 'Servizio newborn Silvia' },
+            { src: '/assets/home/servizi/newborn/gallery/silvia/foto3.jpg', alt: 'Servizio newborn Silvia' },
+            { src: '/assets/home/servizi/newborn/gallery/silvia/foto4.jpg', alt: 'Servizio newborn Silvia' },
+            { src: '/assets/home/servizi/newborn/gallery/silvia/foto5.jpg', alt: 'Servizio newborn Silvia' },
+            { src: '/assets/home/servizi/newborn/gallery/silvia/foto6.jpg', alt: 'Servizio newborn Silvia' },
+            { src: '/assets/home/servizi/newborn/gallery/silvia/foto7.jpg', alt: 'Servizio newborn Silvia' },
+            { src: '/assets/home/servizi/newborn/gallery/silvia/foto8.jpg', alt: 'Servizio newborn Silvia' },
+            { src: '/assets/home/servizi/newborn/gallery/silvia/foto9.jpg', alt: 'Servizio newborn Silvia' },
+            { src: '/assets/home/servizi/newborn/gallery/silvia/foto10.jpg', alt: 'Servizio newborn Silvia' },
+            { src: '/assets/home/servizi/newborn/gallery/silvia/foto11.jpg', alt: 'Servizio newborn Silvia' },
+            { src: '/assets/home/servizi/newborn/gallery/silvia/foto12.jpg', alt: 'Servizio newborn Silvia' },
+            { src: '/assets/home/servizi/newborn/gallery/silvia/foto13.jpg', alt: 'Servizio newborn Silvia' },
+            { src: '/assets/home/servizi/newborn/gallery/silvia/foto14.jpg', alt: 'Servizio newborn Silvia' },
+            { src: '/assets/home/servizi/newborn/gallery/silvia/foto15.jpg', alt: 'Servizio newborn Silvia' }
+
           ]
         },
         { 
-          src: '/assets/home/servizi/newborn/foto3.jpg', 
-          alt: 'Dettagli neonato', 
-          nome: 'Luca',
+          src: '/assets/home/servizi/newborn/gallery/anita/foto1.jpg', 
+          alt: 'Servizio newborn Anita', 
+          nome: 'Anita',
           detailedPhotos: [
-            { src: '/assets/home/servizi/newborn/foto3.jpg', alt: 'Luca - Dettagli' },
-            { src: '/assets/home/servizi/newborn/foto3b.jpg', alt: 'Luca - Primo piano' },
-            { src: '/assets/home/servizi/newborn/foto3c.jpg', alt: 'Luca - Dormiente' },
-            { src: '/assets/home/servizi/newborn/foto3d.jpg', alt: 'Luca - Con papà' },
-            { src: '/assets/home/servizi/newborn/foto3e.jpg', alt: 'Luca - Espressioni' }
+            { src: '/assets/home/servizi/newborn/gallery/anita/foto1.jpg', alt: 'Servizio newborn Anita' },
+            { src: '/assets/home/servizi/newborn/gallery/anita/foto2.jpg', alt: 'Servizio newborn Anita' },
+            { src: '/assets/home/servizi/newborn/gallery/anita/foto3.jpg', alt: 'Servizio newborn Anita' },
+            { src: '/assets/home/servizi/newborn/gallery/anita/foto4.jpg', alt: 'Servizio newborn Anita' },
+            { src: '/assets/home/servizi/newborn/gallery/anita/foto5.jpg', alt: 'Servizio newborn Anita' },
+            { src: '/assets/home/servizi/newborn/gallery/anita/foto6.jpg', alt: 'Servizio newborn Anita' },
+            { src: '/assets/home/servizi/newborn/gallery/anita/foto7.jpg', alt: 'Servizio newborn Anita' },
+            { src: '/assets/home/servizi/newborn/gallery/anita/foto8.jpg', alt: 'Servizio newborn Anita' },
+            { src: '/assets/home/servizi/newborn/gallery/anita/foto9.jpg', alt: 'Servizio newborn Anita' },
+            { src: '/assets/home/servizi/newborn/gallery/anita/foto10.jpg', alt: 'Servizio newborn Anita' },
+            { src: '/assets/home/servizi/newborn/gallery/anita/foto11.jpg', alt: 'Servizio newborn Anita' },
+            { src: '/assets/home/servizi/newborn/gallery/anita/foto12.jpg', alt: 'Servizio newborn Anita' }
           ]
         },
         { 
-          src: '/assets/home/servizi/newborn/foto4.jpg', 
-          alt: 'Famiglia con neonato', 
-          nome: 'Anna',
+          src: '/assets/home/servizi/newborn/gallery/filippo/foto2.jpg', 
+          alt: 'Servizio newborn Filippo', 
+          nome: 'Filippo',
           detailedPhotos: [
-            { src: '/assets/home/servizi/newborn/foto4.jpg', alt: 'Anna - Famiglia' },
-            { src: '/assets/home/servizi/newborn/foto4b.jpg', alt: 'Anna - Con fratello' },
-            { src: '/assets/home/servizi/newborn/foto4c.jpg', alt: 'Anna - Primo piano' },
-            { src: '/assets/home/servizi/newborn/foto4d.jpg', alt: 'Anna - Dettagli' },
-            { src: '/assets/home/servizi/newborn/foto4e.jpg', alt: 'Anna - Abbracci' }
+            { src: '/assets/home/servizi/newborn/gallery/filippo/foto1.jpg', alt: 'Servizio newborn Filippo' },
+            { src: '/assets/home/servizi/newborn/gallery/filippo/foto2.jpg', alt: 'Servizio newborn Filippo' },
+            { src: '/assets/home/servizi/newborn/gallery/filippo/foto3.jpg', alt: 'Servizio newborn Filippo' },
+            { src: '/assets/home/servizi/newborn/gallery/filippo/foto4.jpg', alt: 'Servizio newborn Filippo' },
+            { src: '/assets/home/servizi/newborn/gallery/filippo/foto5.jpg', alt: 'Servizio newborn Filippo' },
+            { src: '/assets/home/servizi/newborn/gallery/filippo/foto6.jpg', alt: 'Servizio newborn Filippo' },
+            { src: '/assets/home/servizi/newborn/gallery/filippo/foto7.jpg', alt: 'Servizio newborn Filippo' },
+            { src: '/assets/home/servizi/newborn/gallery/filippo/foto8.jpg', alt: 'Servizio newborn Filippo' },
+            { src: '/assets/home/servizi/newborn/gallery/filippo/foto9.jpg', alt: 'Servizio newborn Filippo' },
+            { src: '/assets/home/servizi/newborn/gallery/filippo/foto10.jpg', alt: 'Servizio newborn Filippo' },
+            { src: '/assets/home/servizi/newborn/gallery/filippo/foto11.jpg', alt: 'Servizio newborn Filippo' },
+            { src: '/assets/home/servizi/newborn/gallery/filippo/foto12.jpg', alt: 'Servizio newborn Filippo' }
           ]
         }
       ]
