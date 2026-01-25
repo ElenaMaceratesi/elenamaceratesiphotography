@@ -13,6 +13,7 @@ import { GalleryServiziService, GalleryPhoto } from '../../helper/gallery/galler
 export class GalleryPageComponent implements OnInit {
   photos: GalleryPhoto[] = [];
   servizioName: string = '';
+  bannerImage: string = '';
   private servizio: string = '';
 
   constructor(
@@ -26,6 +27,7 @@ export class GalleryPageComponent implements OnInit {
       this.servizio = params['servizio'];
       this.photos = this.galleryService.getGalleryPhotos(this.servizio);
       this.servizioName = this.galleryService.getServizioName(this.servizio);
+      this.bannerImage = this.galleryService.getBanner(this.servizio);
     });
   }
 
