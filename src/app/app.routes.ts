@@ -14,6 +14,7 @@ import { MiniSessioniComponent } from './pages/mini-sessioni/mini-sessioni.compo
 import { RitrattoComponent } from './pages/ritratto/ritratto.component';
 import { NewbornComponent } from './pages/newborn/newborn.component';
 import { GalleryPageComponent } from './pages/gallery/gallery-page.component';
+import { GalleryDetailComponent } from './pages/gallery/gallery-detail.component';
 
 export const routes: Routes = [
     { path: '', component: HomeComponent },
@@ -31,5 +32,6 @@ export const routes: Routes = [
     { path: 'ritratto', component: RitrattoComponent },
     { path: 'newborn', component: NewbornComponent },
     { path: 'gallery/:servizio', component: GalleryPageComponent },
+    { path: 'gallery/:servizio/detail', component: GalleryDetailComponent },
     { path: '**', redirectTo: '' }
   ];

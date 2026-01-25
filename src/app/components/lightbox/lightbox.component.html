@@ -1,0 +1,19 @@
+<div class="lightbox-overlay" (click)="closeLightbox()" *ngIf="isOpen">
+    <div class="lightbox-container" (click)="$event.stopPropagation()">
+        <button class="close-btn" (click)="closeLightbox()">✕</button>
+        
+        <div class="lightbox-content">
+            <img [src]="currentPhoto.src" [alt]="currentPhoto.alt" class="lightbox-image">
+        </div>
+
+        <div class="lightbox-controls">
+            <button class="nav-btn prev" (click)="previousPhoto()" [disabled]="currentIndex === 0">
+                ❮
+            </button>
+            <span class="photo-counter">{{ currentIndex + 1 }} / {{ photos.length }}</span>
+            <button class="nav-btn next" (click)="nextPhoto()" [disabled]="currentIndex === photos.length - 1">
+                ❯
+            </button>
+        </div>
+    </div>
+</div>

@@ -1,19 +1,22 @@
-<div class="gallery-page-container">
+<div class="gallery-detail-container">
     <div class="header-container">
         <div class="photo-header" [style.backgroundImage]="'url(' + bannerImage + ')'"></div>
         <div class="servizi-header">{{ servizioName }}</div>
     </div>
-    
+
     <div class="gallery-content">
-        <div *ngIf="photos.length > 0" class="gallery-grid">
-            <div *ngFor="let photo of photos; let i = index" class="polaroid-item" (click)="navigateToDetail(i)">
-                <div class="polaroid-frame">
+        <div class="gallery-grid" *ngIf="detailPhotos.length > 0">
+            <div 
+                *ngFor="let photo of detailPhotos; let i = index" 
+                class="polaroid-item"
+                (click)="openLightbox(i)"
+            >
+                <div class="polaroid-frame clickable">
                     <img [src]="photo.src" [alt]="photo.alt" loading="lazy">
-                    <div class="polaroid-text">{{ photo.nome }}</div>
                 </div>
             </div>
         </div>
-        <div *ngIf="photos.length === 0" class="no-photos">
+        <div *ngIf="detailPhotos.length === 0" class="no-photos">
             <p>Gallery non disponibile per questo servizio</p>
         </div>
     </div>
@@ -22,4 +25,11 @@
         <button class="btn-back" (click)="goBack()">Torna indietro</button>
         <a [routerLink]="['/contatti']" class="btn-contact">Contattami</a>
     </div>
+
+    <app-lightbox 
+        [photos]="detailPhotos" 
+        [isOpen]="lightboxOpen"
+        (close)="closeLightbox()"
+        #lightbox
+    ></app-lightbox>
 </div>

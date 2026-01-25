@@ -1,4 +1,4 @@
-.gallery-page-container {
+.gallery-detail-container {
   display: flex;
   flex-direction: column;
   margin-top: calc(-3 * var(--navbar-height));
@@ -68,9 +68,9 @@
   transform: perspective(800px) rotateY(0deg);
   transition: all 0.3s ease;
 
-  &:hover {
+  &.clickable:hover {
     box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
-    transform: perspective(800px) rotateY(-2deg) rotateX(2deg) scale(1.02);
+    transform: perspective(800px) rotateY(-2deg) rotateX(2deg) scale(1.05);
   }
 
   img {
@@ -80,16 +80,6 @@
     object-fit: cover;
     aspect-ratio: 3 / 4;
   }
-}
-
-.polaroid-text {
-  padding: 18px 12px 12px;
-  text-align: center;
-  font-family: 'Adventures Unlimited', cursive;
-  font-weight: normal;
-  font-size: 28px;
-  color: #6a4a3c;
-  line-height: 1.2;
 }
 
 .no-photos {
@@ -108,6 +98,7 @@
   margin: 2rem 1rem;
   padding: 2rem 1rem 3rem;
   border-top: 2px solid #f2eadc;
+  width: 100%;
 
   @media (max-width: 480px) {
     flex-direction: column;

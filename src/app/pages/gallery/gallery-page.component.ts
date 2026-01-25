@@ -31,6 +31,12 @@ export class GalleryPageComponent implements OnInit {
     });
   }
 
+  navigateToDetail(personIndex: number) {
+    this.router.navigate([`/gallery/${this.servizio}/detail`], {
+      queryParams: { person: personIndex }
+    });
+  }
+
   goBack() {
     window.history.back();
   }
